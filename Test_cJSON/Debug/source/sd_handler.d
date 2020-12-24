@@ -1,4 +1,4 @@
-source/Test_cJSON.o source/Test_cJSON.d: ../source/Test_cJSON.c \
+source/sd_handler.o source/sd_handler.d: ../source/sd_handler.c \
  C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\sdmmc\inc/fsl_sd.h \
  C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\sdmmc\inc/fsl_sdmmc_common.h \
  C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\drivers/fsl_common.h \

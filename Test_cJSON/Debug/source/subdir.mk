@@ -5,14 +5,20 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../source/Test_cJSON.c \
+../source/inizializations.c \
+../source/sd_handler.c \
 ../source/semihost_hardfault.c 
 
 OBJS += \
 ./source/Test_cJSON.o \
+./source/inizializations.o \
+./source/sd_handler.o \
 ./source/semihost_hardfault.o 
 
 C_DEPS += \
 ./source/Test_cJSON.d \
+./source/inizializations.d \
+./source/sd_handler.d \
 ./source/semihost_hardfault.d 
 
 

@@ -39,26 +39,17 @@
 #include "ff.h"
 #include "diskio.h"
 #include "fsl_sd_disk.h"
-#include "board.h"
 #include "sdmmc_config.h"
-#include "pin_mux.h"
+
 #include <stdbool.h>
 #include "fsl_iocon.h"
 
-#include "fsl_power.h"
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
 
 /* buffer size (in byte) for read/write operations */
 #define BUFFER_SIZE (100U)
-/*******************************************************************************
- * Prototypes
- ******************************************************************************/
-/*!
- * @brief wait card insert function.
- */
-static status_t sdcardWaitCardInsert(void);
 
 /*******************************************************************************
  * Variables
@@ -66,7 +57,7 @@ static status_t sdcardWaitCardInsert(void);
 static FATFS g_fileSystem; /* File system object */
 static FIL g_fileObject;   /* File object */
 
-/* @brief decription about the read/write buffer
+/* @brief description about the read/write buffer
  * The size of the read/write buffer should be a multiple of 512, since SDHC/SDXC card uses 512-byte fixed
  * block length and this driver example is enabled with a SDHC/SDXC card.If you are using a SDSC card, you
  * can define the block length by yourself if the card supports partial access.
@@ -82,6 +73,8 @@ SDK_ALIGN(uint8_t g_bufferRead[BUFFER_SIZE], BOARD_SDMMC_DATA_BUFFER_ALIGN_SIZE)
  * Code
  ******************************************************************************/
 
+extern void board_init();
+extern status_t sdcardWaitCardInsert();
 /*!
  * @brief Main function
  */
@@ -92,20 +85,12 @@ int main(void)
     FILINFO fileInformation;
     UINT bytesWritten;
     UINT bytesRead;
-    const TCHAR driverNumberBuffer[3U] = {SDDISK + '0', ':', '/'};
+
     volatile bool failedFlag           = false;
     char ch                            = '0';
     BYTE work[FF_MAX_SS];
 
-    /* set BOD VBAT level to 1.65V */
-    POWER_SetBodVbatLevel(kPOWER_BodVbatLevel1650mv, kPOWER_BodHystLevel50mv, false);
-    CLOCK_EnableClock(kCLOCK_InputMux);
-    /* attach 12 MHz clock to FLEXCOMM0 (debug console) */
-    CLOCK_AttachClk(BOARD_DEBUG_UART_CLK_ATTACH);
-
-    BOARD_InitPins();
-    BOARD_BootClockPLL150M();
-    BOARD_InitDebugConsole();
+    board_init();
 
     PRINTF("\r\nFATFS example to demonstrate how to use FATFS with SD card.\r\n");
 
@@ -116,74 +101,20 @@ int main(void)
         return -1;
     }
 
-    if (f_mount(&g_fileSystem, driverNumberBuffer, 0U))
-    {
-        PRINTF("Mount volume failed.\r\n");
-        return -1;
-    }
+//    if (f_mount(&g_fileSystem, driverNumberBuffer, 0U))
+//    {
+//        PRINTF("Mount volume failed.\r\n");
+//        return -1;
+//    }
 
-#if (FF_FS_RPATH >= 2U)
-    error = f_chdrive((char const *)&driverNumberBuffer[0U]);
-    if (error)
-    {
-        PRINTF("Change drive failed.\r\n");
-        return -1;
-    }
-#endif
-
-#if FF_USE_MKFS
-    PRINTF("\r\nMake file system......The time may be long if the card capacity is big.\r\n");
-    if (f_mkfs(driverNumberBuffer, 0, work, sizeof work))
-    {
-        PRINTF("Make file system failed.\r\n");
-        return -1;
-    }
-#endif /* FF_USE_MKFS */
-
-    PRINTF("\r\nCreate directory......\r\n");
-    error = f_mkdir(_T("/dir_1"));
-    if (error)
-    {
-        if (error == FR_EXIST)
-        {
-            PRINTF("Directory exists.\r\n");
-        }
-        else
-        {
-            PRINTF("Make directory failed.\r\n");
-            return -1;
-        }
-    }
-
-    PRINTF("\r\nCreate a file in that directory......\r\n");
-    error = f_open(&g_fileObject, _T("/dir_1/f_1.dat"), (FA_WRITE | FA_READ | FA_CREATE_ALWAYS));
-    if (error)
-    {
-        if (error == FR_EXIST)
-        {
-            PRINTF("File exists.\r\n");
-        }
-        else
-        {
-            PRINTF("Open file failed.\r\n");
-            return -1;
-        }
-    }
-
-    PRINTF("\r\nCreate a directory in that directory......\r\n");
-    error = f_mkdir(_T("/dir_1/dir_2"));
-    if (error)
-    {
-        if (error == FR_EXIST)
-        {
-            PRINTF("Directory exists.\r\n");
-        }
-        else
-        {
-            PRINTF("Directory creation failed.\r\n");
-            return -1;
-        }
-    }
+//#if (FF_FS_RPATH >= 2U)
+//    error = f_chdrive((char const *)&driverNumberBuffer[0U]);
+//    if (error)
+//    {
+//        PRINTF("Change drive failed.\r\n");
+//        return -1;
+//    }
+//#endif
 
     PRINTF("\r\nList the file in that directory......\r\n");
     if (f_opendir(&directory, "/dir_1"))
@@ -280,31 +211,4 @@ int main(void)
     }
 }
 
-static status_t sdcardWaitCardInsert(void)
-{
-    BOARD_SD_Config(&g_sd, NULL, BOARD_SDMMC_SD_HOST_IRQ_PRIORITY, NULL);
 
-    /* SD host init function */
-    if (SD_HostInit(&g_sd) != kStatus_Success)
-    {
-        PRINTF("\r\nSD host init fail\r\n");
-        return kStatus_Fail;
-    }
-    /* power off card */
-    SD_SetCardPower(&g_sd, false);
-
-    /* wait card insert */
-    if (SD_PollingCardInsert(&g_sd, kSD_Inserted) == kStatus_Success)
-    {
-        PRINTF("\r\nCard inserted.\r\n");
-        /* power on the card */
-        SD_SetCardPower(&g_sd, true);
-    }
-    else
-    {
-        PRINTF("\r\nCard detect fail.\r\n");
-        return kStatus_Fail;
-    }
-
-    return kStatus_Success;
-}
