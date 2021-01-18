@@ -44,7 +44,7 @@ all: Test_cJSON.axf
 Test_cJSON.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs" -Xlinker -Map="Test_cJSON.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T Test_cJSON_Debug.ld -o "Test_cJSON.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -L"C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs" -Xlinker -Map="Test_cJSON.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -flto -O1 -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T Test_cJSON_Debug.ld -o "Test_cJSON.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

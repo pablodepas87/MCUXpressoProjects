@@ -1,0 +1,10 @@
+sd_handler.c:31:10:sdcardWaitCardInsert	8	static
+sd_handler.c:59:6:sd_is_mount	8	static
+sd_handler.c:69:6:change_driver	8	static
+sd_handler.c:85:6:make_file_systems	8	static
+sd_handler.c:99:6:make_dir	16	static
+sd_handler.c:118:6:create_file_into_sd	16	static
+sd_handler.c:142:6:create_dir_in_dir	16	static
+sd_handler.c:164:6:show_list_file_in_dir	16	static
+sd_handler.c:198:7:readAllFile	32	static
+sd_handler.c:227:6:close_file	16	static

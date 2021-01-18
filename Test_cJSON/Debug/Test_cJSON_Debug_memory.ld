@@ -2,11 +2,11 @@
  * GENERATED FILE - DO NOT EDIT
  * Copyright (c) 2008-2013 Code Red Technologies Ltd,
  * Copyright 2015, 2018-2019 NXP
- * (c) NXP Semiconductors 2013-2020
+ * (c) NXP Semiconductors 2013-2021
  * Generated linker script file for LPC55S28
  * Created from memory.ldt by FMCreateLinkMemory
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v11.2.1 [Build 4149] [2020-10-07] on 23-dic-2020 15.01.10
+ * MCUXpresso IDE v11.2.1 [Build 4149] [2020-10-07] on 15-gen-2021 22.35.21
  */
 
 MEMORY

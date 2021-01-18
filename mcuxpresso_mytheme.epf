@@ -1,0 +1,336 @@
+#Sun Dec 13 00:10:03 CET 2020
+\!/=
+/configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
+/configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=10
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
+/configuration/org.eclipse.ui.ide/SHOW_RECENT_WORKSPACES=false
+/configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=true
+/instance/com.crt.quickstart/indexerInitialised=true
+/instance/com.nxp.mcuxpresso.core.datamodels/sdk.paths.pref=C\:\\Users\\rappi\\mcuxpresso\\02\\SDKPackages;;
+/instance/com.nxp.swtools/configNamePerspectiveMap_C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace\\LPC55S28_Project\\LPC55S28_Project.mex=com.nxp.mcuxpresso.swo.ui.perspective.MCXDevelopPerspective
+/instance/com.nxp.swtools/configNamePerspectiveMap_C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace\\LPC55S28_Project_TestLed\\LPC55S28_Project_TestLed.mex=com.nxp.swtools.mux.perspective
+/instance/com.nxp.swtools/dataUpdate=AUTO
+/instance/com.nxp.swtools/lineEndsStyle=defaultStyle
+/instance/com.nxp.swtools/proxy=NATIVE
+/instance/com.nxp.swtools/recentConfigFileName_0=C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace\\LPC55S28_Project_TestLed\\LPC55S28_Project_TestLed.mex
+/instance/com.nxp.swtools/recentConfigFileName_1=C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace\\lpcxpresso55s28_gpio_led_output\\lpcxpresso55s28_gpio_led_output.mex
+/instance/com.nxp.swtools/recentConfigFileName_2=C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace\\lpcxpresso55s28_freertos_usart\\lpcxpresso55s28_freertos_usart.mex
+/instance/com.nxp.swtools/recentConfigFileName_3=C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace\\LPC55S28_Project\\LPC55S28_Project.mex
+/instance/com.nxp.swtools/saveLastFolderPath=C\:\\Users\\rappi\\Documents\\MCUXpressoIDE_11.2.1_4149\\workspace\\LPC55S28_Project_TestLed
+/instance/com.nxp.swtools/undoHistorySize=10
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.errnoreturn.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"No return\\")",implicit\=>false}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.errreturnvalue.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused return value\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.localvarreturn=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.localvarreturn.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Returning the address of a local variable\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.nocommentinside=-Error
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.nocommentinside.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Nesting comments\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.nolinecomment=-Error
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.nolinecomment.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Line comments\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.checkers.noreturn.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"No return value\\")",implicit\=>false}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.AbstractClassCreation.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Abstract class cannot be instantiated\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.AmbiguousProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Ambiguous problem\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.AssignmentInConditionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Assignment in condition\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.AssignmentToItselfProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Assignment to itself\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.BlacklistProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.BlacklistProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Function or method is blacklisted\\")",blacklist\=>()}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.CStyleCastProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.CStyleCastProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"C-Style cast instead of C++ cast\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.CaseBreakProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"No break at end of case\\")",no_break_comment\=>"no break",last_case_param\=>false,empty_case_param\=>false,enable_fallthrough_quickfix_param\=>false}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.CatchByReference.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Catching by reference is recommended\\")",unknown\=>false,exceptions\=>()}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.CircularReferenceProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Circular inheritance\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.ClassMembersInitialization.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Class members should be properly initialized\\")",skip\=>true}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.CopyrightProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.CopyrightProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Lack of copyright information\\")",regex\=>".*Copyright.*"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.DecltypeAutoProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid 'decltype(auto)' specifier\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.FieldResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Field cannot be resolved\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.FloatCompareProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.FloatCompareProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Direct float comparison\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.FunctionResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Function cannot be resolved\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.GotoStatementProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.GotoStatementProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Goto statement used\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.InvalidArguments.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid arguments\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.InvalidTemplateArgumentsProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid template argument\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.LabelStatementNotFoundProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Label statement not found\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MemberDeclarationNotFoundProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Member declaration not found\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MethodResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Method cannot be resolved\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissCaseProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissCaseProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing cases in switch\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissDefaultProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissDefaultProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing default in switch\\")",defaultWithAllEnums\=>false}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissReferenceProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissReferenceProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing reference return value in assignment operator\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissSelfCheckProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MissSelfCheckProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Missing self check in assignment operator\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MultipleDeclarationsProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.MultipleDeclarationsProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Multiple variable declaration\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.NamingConventionFunctionChecker.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Name convention for function\\")",pattern\=>"^[a-z]",macro\=>true,exceptions\=>()}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.NonVirtualDestructorProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Class has a virtual method and non-virtual destructor\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.OverloadProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid overload\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.RedeclarationProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid redeclaration\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.RedefinitionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Invalid redefinition\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.ReturnStyleProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Return with parenthesis\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.ScanfFormatStringSecurityProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Format String Vulnerability\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.StatementHasNoEffectProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Statement has no effect\\")",macro\=>true,exceptions\=>()}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.StaticVariableInHeaderProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.StaticVariableInHeaderProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Static variable in header file\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.SuggestedParenthesisProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Suggested parenthesis around expression\\")",paramNot\=>false}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.SuspiciousSemicolonProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Suspicious semicolon\\")",else\=>false,afterelse\=>false}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.TypeResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Type cannot be resolved\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.UnusedFunctionDeclarationProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused function declaration\\")",macro\=>true}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.UnusedStaticFunctionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused static function\\")",macro\=>true}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.UnusedVariableDeclarationProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Unused variable declaration in file scope\\")",macro\=>true,exceptions\=>("@(\#)","$Id")}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.UsingInHeaderProblem=-Warning
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.UsingInHeaderProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Using directive in header\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.VariableResolutionProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Symbol is not resolved\\")"}
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.VirtualMethodCallProblem=-Error
+/instance/org.eclipse.cdt.codan.core/org.eclipse.cdt.codan.internal.checkers.VirtualMethodCallProblem.params={launchModes\=>{RUN_ON_FULL_BUILD\=>true,RUN_ON_INC_BUILD\=>true,RUN_ON_FILE_OPEN\=>false,RUN_ON_FILE_SAVE\=>false,RUN_AS_YOU_TYPE\=>true,RUN_ON_DEMAND\=>true},suppression_comment\=>"@suppress(\\"Virtual method call in constructor/destructor\\")"}
+/instance/org.eclipse.cdt.core.prj-LPC55S28_Project_TestLed/indexer/preferenceScope=0
+/instance/org.eclipse.cdt.core.prj-testClock/indexer/preferenceScope=0
+/instance/org.eclipse.cdt.core/ToolChainManager/order/0.id=gcc-x86_64-D\:/Qt/Tools/mingw730_64/bin/gcc.exe
+/instance/org.eclipse.cdt.core/ToolChainManager/order/0.type=org.eclipse.cdt.build.gcc
+/instance/org.eclipse.cdt.core/ToolChainManager/order/1.id=gcc-x86_64-D\:/Qt/Tools/mingw730_64/bin/x86_64-w64-mingw32-gcc.exe
+/instance/org.eclipse.cdt.core/ToolChainManager/order/1.type=org.eclipse.cdt.build.gcc
+/instance/org.eclipse.cdt.core/ToolChainManager/order/n=2
+/instance/org.eclipse.cdt.core/build.all.configs.enabled=false
+/instance/org.eclipse.cdt.core/build.proj.ref.configs.enabled=false
+/instance/org.eclipse.cdt.core/indexer/indexAllFiles=true
+/instance/org.eclipse.cdt.core/indexer/indexAllHeaderVersions=false
+/instance/org.eclipse.cdt.core/indexer/indexAllVersionsSpecificHeaders=
+/instance/org.eclipse.cdt.core/indexer/indexOnOpen=true
+/instance/org.eclipse.cdt.core/indexer/indexUnusedHeadersWithDefaultLang=true
+/instance/org.eclipse.cdt.core/indexer/indexerId=org.eclipse.cdt.core.fastIndexer
+/instance/org.eclipse.cdt.core/indexer/skipFilesLargerThanMB=8
+/instance/org.eclipse.cdt.core/indexer/skipImplicitReferences=false
+/instance/org.eclipse.cdt.core/indexer/skipIncludedFilesLargerThanMB=16
+/instance/org.eclipse.cdt.core/indexer/skipMacroReferences=false
+/instance/org.eclipse.cdt.core/indexer/skipReferences=false
+/instance/org.eclipse.cdt.core/indexer/skipTypeReferences=false
+/instance/org.eclipse.cdt.core/indexer/updatePolicy=0
+/instance/org.eclipse.cdt.core/indexer/useHeuristicIncludeResolution=true
+/instance/org.eclipse.cdt.core/macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<macros>\r\n<stringMacro name\="project.flashdriver.dir" type\="VALUE_PATH_DIR" value\=""/>\r\n<stringMacro name\="SDK_LPC_RESOURCES" type\="VALUE_PATH_DIR" value\="C\:\\nxp\\MCUXpressoIDE_11.2.1_4149\\ide\\plugins\\com.nxp.mcuxpresso.core.datamodels.resources_11.2.0.202001021529\\override"/>\r\n</macros>\r\n
+/instance/org.eclipse.cdt.core/org.eclipse.cdt.core.showSourceRootsAtTopLevelOfProject=true
+/instance/org.eclipse.cdt.core/org.eclipse.cdt.core.taskPriorities=normal,normal,normal
+/instance/org.eclipse.cdt.core/org.eclipse.cdt.core.taskTags=TODO,FIXME,XXX
+/instance/org.eclipse.cdt.debug.core/org.eclipse.cdt.debug.core.cDebug.default_source_containers=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<sourceLookupDirector>\r\n<sourceContainers duplicates\="false">\r\n<container memento\="AbsolutePath" typeId\="org.eclipse.cdt.debug.core.containerType.absolutePath"/>\r\n<container memento\="programRelativePath" typeId\="org.eclipse.cdt.debug.core.containerType.programRelativePath"/>\r\n<container memento\="&lt;?xml version\=&quot;1.0&quot; encoding\=&quot;UTF-8&quot; standalone\=&quot;no&quot;?&gt;&\#13;&\#10;&lt;project referencedProjects\=&quot;true&quot;/&gt;&\#13;&\#10;" typeId\="org.eclipse.cdt.debug.core.containerType.project"/>\r\n</sourceContainers>\r\n</sourceLookupDirector>\r\n
+/instance/org.eclipse.cdt.dsf.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.cdt.make.ui/org.eclipse.cdt.make.ui.editor.comment=166,172,185
+/instance/org.eclipse.cdt.make.ui/org.eclipse.cdt.make.ui.editor.default=216,222,223
+/instance/org.eclipse.cdt.managedbuilder.core/properties/FreeRTOSDemo_ns.null.910087049/com.crt.advproject.config.exe.debug.2010168299=com.crt.advproject.gcc.exe.debug.2125891879\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.787246689\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.1807699174\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.1136235507\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1924104427\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.1147653393\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.154235944\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/LPC55S28_Project.null.1572481504/com.crt.advproject.config.exe.debug.1831250226=com.crt.advproject.link.cpp.exe.debug.787653334\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.1907371018\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.2127500340\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.2139640319\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.1599300099\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.1698933826\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1416471880\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/LPC55S28_Project.null.1963335573/com.crt.advproject.config.exe.debug.1831250226=com.crt.advproject.config.exe.debug.1831250226\=rcState\\\=0\\r\\nrebuildState\\\=false\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.787653334\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.tool.debug.debug.1907371018\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.2127500340\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.2139640319\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.gas.exe.debug.1599300099\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.1698933826\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1416471880\=rebuildState\\\=false\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/LPC55S28_Project.null.1963335573/com.crt.advproject.config.exe.release.162168850=com.crt.advproject.tool.debug.release.1263372118\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.release.1996330691\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.release.174240706\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.config.exe.release.162168850\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.release.512700228\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.release.1997492830\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.release.7608450\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.release.446082214\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/LPC55S28_Project_TestLed.null.1952932620/com.crt.advproject.config.exe.debug.1959286068=com.crt.advproject.gas.exe.debug.1361834801\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.2029689034\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.1399438059\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.985426358\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1549244\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.455044377\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.1624572241\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/LPC55S28_Project_TestLed.null.662146630/com.crt.advproject.config.exe.debug.1959286068=com.crt.advproject.gas.exe.debug.1361834801\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.tool.debug.debug.2029689034\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.link.exe.debug.1399438059\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.config.exe.debug.1959286068\=rcState\\\=0\\r\\nrebuildState\\\=false\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.985426358\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1549244\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.455044377\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.1624572241\=rebuildState\\\=false\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/LPC55S28_Project_TestLed.null.662146630/com.crt.advproject.config.exe.release.1366648107=com.crt.advproject.tool.debug.release.972785427\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.release.1355191416\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.release.903199242\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.release.884254708\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.config.exe.release.1366648107\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.release.933048058\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.release.1750805976\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.release.1600031610\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_dma_channel_chain.null.124881960/com.crt.advproject.config.exe.debug.840821218=com.crt.advproject.tool.debug.debug.290499530\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.952082181\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.282594863\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.573715683\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.229271679\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.58770645\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.338126645\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_dma_channel_chain.null.1917352869/com.crt.advproject.config.exe.debug.840821218=com.crt.advproject.tool.debug.debug.290499530\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.952082181\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.282594863\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.573715683\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.229271679\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.58770645\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.338126645\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_dma_channel_chain.null.1917352869/com.crt.advproject.config.exe.release.1018519945=com.crt.advproject.tool.debug.release.529383667\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.release.1639462772\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.release.867106706\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.config.exe.release.1018519945\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.release.448854180\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.release.541545459\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.release.1052790460\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.release.383764907\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_freertos_usart.null.863720437/com.crt.advproject.config.exe.debug.1321048217=com.crt.advproject.toolchain.exe.debug.1351041169\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.1003240142\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1657101495\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.566308573\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.2120769989\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.351423775\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.1976948474\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_freertos_usart.null.936010303/com.crt.advproject.config.exe.debug.1321048217=com.crt.advproject.toolchain.exe.debug.1351041169\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.1003240142\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1657101495\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.566308573\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.2120769989\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.351423775\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.1976948474\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_freertos_usart.null.936010303/com.crt.advproject.config.exe.release.1076655231=com.crt.advproject.gas.exe.release.2147123816\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.release.1096698535\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.release.1371638539\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.release.250791415\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.release.1152176060\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.release.963152775\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.config.exe.release.1076655231\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.release.1166030138\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_gpio_led_output.null.1817674484/com.crt.advproject.config.exe.debug.1016919480=com.crt.advproject.toolchain.exe.debug.2132870264\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.tool.debug.debug.745574533\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1938748613\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.1111452370\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.517612961\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.config.exe.debug.1016919480\=rcState\\\=0\\r\\nrebuildState\\\=false\\r\\n\r\ncom.crt.advproject.gas.exe.debug.1880703089\=rebuildState\\\=false\\r\\n\r\ncom.crt.advproject.link.exe.debug.1554611177\=rebuildState\\\=false\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_gpio_led_output.null.1817674484/com.crt.advproject.config.exe.release.1974767886=com.crt.advproject.gcc.exe.release.1856416380\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.release.1832660956\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.release.1777933642\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.release.941852134\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.release.1128311464\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.config.exe.release.1974767886\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.release.1366449457\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.release.1543671407\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/lpcxpresso55s28_gpio_led_output.null.704705426/com.crt.advproject.config.exe.debug.1016919480=com.crt.advproject.toolchain.exe.debug.2132870264\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.745574533\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.debug.1938748613\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.1111452370\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.517612961\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.1880703089\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.1554611177\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/testClock.null.1142648095/com.crt.advproject.config.exe.debug.1664775472=com.crt.advproject.cpp.exe.debug.1654941185\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.898007704\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.71532465\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.1240534807\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.855382828\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.362370779\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.2043489355\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/testClock.null.1142648095/com.crt.advproject.config.exe.release.1279572222=com.crt.advproject.config.exe.release.1279572222\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.release.1609922051\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.release.1693635846\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.release.1694695208\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.release.1255472942\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.release.223731411\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.cpp.exe.release.183267204\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.release.328637944\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/testClock.null.2006274474/com.crt.advproject.config.exe.debug.1664775472=com.crt.advproject.cpp.exe.debug.1654941185\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gcc.exe.debug.898007704\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.gas.exe.debug.71532465\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.tool.debug.debug.1240534807\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.cpp.exe.debug.855382828\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.toolchain.exe.debug.362370779\=rebuildState\\\=true\\r\\n\r\ncom.crt.advproject.link.exe.debug.2043489355\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.ui/asm_directive=200,150,200
+/instance/org.eclipse.cdt.ui/c_braces=223,223,223
+/instance/org.eclipse.cdt.ui/c_default=249,174,84
+/instance/org.eclipse.cdt.ui/c_keyword=200,150,200
+/instance/org.eclipse.cdt.ui/c_keyword_bold=false
+/instance/org.eclipse.cdt.ui/c_multi_line_comment=160,172,184
+/instance/org.eclipse.cdt.ui/c_numbers=249,174,84
+/instance/org.eclipse.cdt.ui/c_operators=249,123,87
+/instance/org.eclipse.cdt.ui/c_single_line_comment=160,172,184
+/instance/org.eclipse.cdt.ui/c_string=215,223,223
+/instance/org.eclipse.cdt.ui/c_type=200,150,200
+/instance/org.eclipse.cdt.ui/org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+/instance/org.eclipse.cdt.ui/pp_default=249,174,84
+/instance/org.eclipse.cdt.ui/pp_directive=200,150,200
+/instance/org.eclipse.cdt.ui/pp_header=249,174,84
+/instance/org.eclipse.cdt.ui/semanticHighlighting.class.color=200,150,200
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enum.bold=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enum.color=95,150,190
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enum.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enumClass.color=200,150,200
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enumerator.color=95,150,190
+/instance/org.eclipse.cdt.ui/semanticHighlighting.externalSDK.color=200,150,200
+/instance/org.eclipse.cdt.ui/semanticHighlighting.field.color=222,222,222
+/instance/org.eclipse.cdt.ui/semanticHighlighting.function.bold=false
+/instance/org.eclipse.cdt.ui/semanticHighlighting.function.color=95,150,190
+/instance/org.eclipse.cdt.ui/semanticHighlighting.function.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.functionDeclaration.color=95,180,180
+/instance/org.eclipse.cdt.ui/semanticHighlighting.globalVariable.color=249,174,84
+/instance/org.eclipse.cdt.ui/semanticHighlighting.globalVariable.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.label.color=222,222,222
+/instance/org.eclipse.cdt.ui/semanticHighlighting.label.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.localVariable.color=222,222,222
+/instance/org.eclipse.cdt.ui/semanticHighlighting.localVariable.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.localVariableDeclaration.color=222,222,222
+/instance/org.eclipse.cdt.ui/semanticHighlighting.localVariableDeclaration.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.macroDefinition.color=249,174,84
+/instance/org.eclipse.cdt.ui/semanticHighlighting.macroDefinition.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.macroSubstitution.color=249,174,84
+/instance/org.eclipse.cdt.ui/semanticHighlighting.macroSubstitution.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.method.color=95,150,190
+/instance/org.eclipse.cdt.ui/semanticHighlighting.method.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.methodDeclaration.color=95,180,180
+/instance/org.eclipse.cdt.ui/semanticHighlighting.namespace.color=200,150,200
+/instance/org.eclipse.cdt.ui/semanticHighlighting.namespace.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.parameterVariable.color=249,174,84
+/instance/org.eclipse.cdt.ui/semanticHighlighting.parameterVariable.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.staticField.color=249,174,84
+/instance/org.eclipse.cdt.ui/semanticHighlighting.staticMethod.color=95,180,180
+/instance/org.eclipse.cdt.ui/semanticHighlighting.typedef.color=200,150,200
+/instance/org.eclipse.cdt.ui/semanticHighlighting.variablePassedByNonconstRef.color=222,222,222
+/instance/org.eclipse.cdt.ui/semanticHighlighting.variablePassedByNonconstRef.enabled=true
+/instance/org.eclipse.cdt.ui/sourceHoverBackgroundColor=52,61,70
+/instance/org.eclipse.cdt.ui/spelling_locale_initialized=true
+/instance/org.eclipse.cdt.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.cdt.ui/useQuickDiffPrefPage=true
+/instance/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
+/instance/org.eclipse.core.resources/pathvariable.SDK_LPC_RESOURCES=C\:/nxp/MCUXpressoIDE_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_11.2.0.202001021529/override
+/instance/org.eclipse.core.resources/version=1
+/instance/org.eclipse.core.variables/org.eclipse.core.variables.valueVariables=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<valueVariables>\r\n<valueVariable description\="PEplugin ID" name\="PEplugin" readOnly\="false" value\="com.pemicro.debug.gdbjtag.pne_4.7.6.202009081307/win32"/>\r\n</valueVariables>\r\n
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.applicationLaunchType=org.eclipse.cdt.dsf.gdb.launch.localCLaunch,debug,;org.eclipse.cdt.cdi.launch.localCLaunch,run,;
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.attachLaunchType=org.eclipse.cdt.dsf.gdb.launch.attachCLaunch,debug,;
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.postmortemLaunchType=org.eclipse.cdt.dsf.gdb.launch.coreCLaunch,debug,;
+/instance/org.eclipse.debug.core/prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions/>\r\n
+/instance/org.eclipse.debug.ui/Variables.detail.orientation=Variables.detail.orientation.hidden
+/instance/org.eclipse.debug.ui/com.crt.peripheral.PeripheralView+org.eclipse.debug.ui.ShowTypesAction=true
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.MemoryView.orientation=0
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
+/instance/org.eclipse.debug.ui/pref_state_memento.=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FaultsViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="250" org.eclipse.debug.ui.SASH_REGISTERS_PART\="375" org.eclipse.debug.ui.SASH_STACKED_PART\="375"/>
+/instance/org.eclipse.debug.ui/pref_state_memento.com.crt.peripheral.PeripheralView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="PeripheralView">\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="org.eclipse.debug.ui.displayVariableTypeNames"/>\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="org.eclipse.debug.ui.check"/>\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="PRESENTATION_SHOW_LOGICAL_STRUCTURES"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
+/instance/org.eclipse.debug.ui/pref_state_memento.com.nxp.mcuxpresso.core.debug.ui.views.NXPHeapAndStackUsageView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684"/>
+/instance/org.eclipse.debug.ui/pref_state_memento.org.eclipse.debug.ui.BreakpointView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.BreakpointView">\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="org.eclipse.debug.ui.check"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
+/instance/org.eclipse.debug.ui/pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
+/instance/org.eclipse.debug.ui/pref_state_memento.org.eclipse.debug.ui.RegisterView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.RegisterView">\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="PRESENTATION_SHOW_LOGICAL_STRUCTURES"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
+/instance/org.eclipse.debug.ui/pref_state_memento.org.eclipse.debug.ui.VariableView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.VariableView">\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="PRESENTATION_SHOW_LOGICAL_STRUCTURES"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
+/instance/org.eclipse.debug.ui/preferredTargets=org.eclipse.cdt.debug.ui.toggleCBreakpointTarget,org.eclipse.cdt.debug.ui.toggleCDynamicPrintfTarget\:org.eclipse.cdt.debug.ui.toggleCBreakpointTarget|
+/instance/org.eclipse.e4.ui.css.swt.theme/themeid=org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0
+/instance/org.eclipse.e4.ui.workbench.renderers.swt/enableMRU=true
+/instance/org.eclipse.e4.ui.workbench.renderers.swt/themeEnabled=true
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.compliance=1.8
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=1.8
+/instance/org.eclipse.jdt.debug.ui/org.eclipse.debug.ui.VariableView.org.eclipse.jdt.debug.ui.show_null_entries=true
+/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1607808883731">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1607808883731" name\="ide" path\="C\:\\nxp\\MCUXpressoIDE_11.2.1_4149\\ide"/>\r\n</vmType>\r\n</vmSettings>\r\n
+/instance/org.eclipse.jdt.ui/content_assist_proposals_background=255,255,255
+/instance/org.eclipse.jdt.ui/content_assist_proposals_foreground=0,0,0
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.layout=2
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.formatterprofiles.version=18
+/instance/org.eclipse.jdt.ui/spelling_ignore_ampersand_in_properties=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_digits=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_java_strings=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_mixed=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_non_letters=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_sentence=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_single_letters=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_upper=true
+/instance/org.eclipse.jdt.ui/spelling_ignore_urls=true
+/instance/org.eclipse.jdt.ui/spelling_locale_initialized=true
+/instance/org.eclipse.jdt.ui/spelling_user_dictionary_encoding=Cp1252
+/instance/org.eclipse.jdt.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.jdt.ui/useQuickDiffPrefPage=true
+/instance/org.eclipse.jsch.core/org.eclipse.jsch.core.hasChangedDefaultWin32SshHome=true
+/instance/org.eclipse.jsch.core/org.eclipse.jsch.core.hasMigratedSsh2Preferences=true
+/instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+/instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+/instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+/instance/org.eclipse.launchbar.core/configDescList=org.eclipse.launchbar.core.descriptorType.default\:LPC55S28_Project Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LPC55S28_Project_TestLed LinkServer Debug
+/instance/org.eclipse.launchbar.core/org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LPC55S28_Project\ LinkServer\ Debug/activeLaunchMode=debug
+/instance/org.eclipse.launchbar.core/org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LPC55S28_Project\ LinkServer\ Debug/activeLaunchTarget=null\:---
+/instance/org.eclipse.launchbar.core/org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LPC55S28_Project_TestLed\ LinkServer\ Debug/activeLaunchMode=debug
+/instance/org.eclipse.launchbar.core/org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LPC55S28_Project_TestLed\ LinkServer\ Debug/activeLaunchTarget=null\:---
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:LPC55S28_Project\ Debug/activeLaunchMode=run
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:LPC55S28_Project\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:LPC55S28_Project\ LinkServer\ Debug/activeLaunchMode=debug
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:LPC55S28_Project_TestLed\ LinkServer\ Debug/activeLaunchMode=debug
+/instance/org.eclipse.search/org.eclipse.search.defaultPerspective=org.eclipse.search.defaultPerspective.none
+/instance/org.eclipse.ui.browser/browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="0">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Mozilla Firefox\\firefox.exe" name\="Firefox"/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n<external location\="C\:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" name\="Chrome"/>\r\n</web-browsers>
+/instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background=52,61,70
+/instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background.SystemDefault=false
+/instance/org.eclipse.ui.editors/currentLine=false
+/instance/org.eclipse.ui.editors/lineNumberColor=160,172,184
+/instance/org.eclipse.ui.editors/overviewRuler_migration=migrated_3.1
+/instance/org.eclipse.ui.editors/spellingEngine=org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine
+/instance/org.eclipse.ui.ide/PROBLEMS_FILTERS_MIGRATE=true
+/instance/org.eclipse.ui.ide/platformState=1604155482985
+/instance/org.eclipse.ui.ide/quickStart=false
+/instance/org.eclipse.ui.ide/tipsAndTricks=true
+/instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/com.nxp.mcuxpresso.power.ui.setProbeType/org.eclipse.ui.commands.radioState=nopower
+/instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+/instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
+/instance/org.eclipse.ui.workbench/ACTIVE_HYPERLINK_COLOR=255,255,0
+/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation\tTorg.eclipse.cdt.ui.CEditor.presentation
+/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.cdt.ui.editors.textfont
+/instance/org.eclipse.ui.workbench/ENABLED_DECORATORS=org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,org.eclipse.debug.ui.prototype.decorator\:true,org.eclipse.cdt.ui.indexedFiles\:false,org.eclipse.cdt.managedbuilder.ui.excludedFile\:true,org.eclipse.cdt.managedbuilder.ui.includeFolder\:true,org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator\:false,org.eclipse.team.cvs.ui.decorator\:false,com.crt.advproject.gui.CRTCustomBuildSettingsDecorator\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:true,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.jdt.internal.ui.without.test.code.decorator\:true,com.nxp.mcuxpresso.core.datamodels.sdkNatureDecorator\:true,com.nxp.mcuxpresso.core.datamodels.ui.multicoreProjectDecorator\:true,com.nxp.mcuxpresso.core.debug.support.linkserver.launch.\:true,org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,org.eclipse.egit.ui.internal.repository.RepositoryTreeNodeDecorator\:true,com.nxp.mcuxpresso.addons.docsupport.ui.decorators.projectdecorator\:true,
+/instance/org.eclipse.ui.workbench/UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR=204,204,204
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR=182,188,204
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END=206,221,237
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START=210,225,240
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR=255,255,255
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR=206,213,229
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END=244,246,252
+/instance/org.eclipse.ui.workbench/com.nxp.mcuxpresso.light.theme.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START=244,246,252
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.debug.ui.ModulesDetailPaneFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Ubuntu Mono|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|0|3|2|1|49|Ubuntu Mono;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|Ubuntu Mono|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|0|3|2|1|49|Ubuntu Mono;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.make.internal.ui.compare.MakefileMergeViewer=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.buildconsole.ConsoleFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.editors.textfont=1|Ubuntu Mono|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|0|3|2|1|49|Ubuntu Mono;
+/instance/org.eclipse.ui.workbench/org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.DetailPaneFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.MemoryViewTableFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.consoleFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.CommitMessageEditorFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.CommitMessageFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.DiffHeadlineFont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.ui.editors.textfont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.jface.textfont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/org.eclipse.wst.sse.ui.textfont=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/pref_console_font=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui.workbench/terminal.views.view.font.definition=1|Consolas|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+/instance/org.eclipse.ui/showIntro=false
+@com.crt.quickstart=11.2.0.202008131253
+@com.nxp.mcuxpresso.core.datamodels=11.2.0.202009301230
+@org.eclipse.cdt.codan.core=4.0.200.201910281707
+@org.eclipse.cdt.core=6.10.0.201912051559
+@org.eclipse.cdt.debug.core=8.4.0.201908101428
+@org.eclipse.cdt.dsf.ui=2.5.300.201910171407
+@org.eclipse.cdt.make.ui=7.3.200.201910281707
+@org.eclipse.cdt.managedbuilder.core=8.7.300.201910281707
+@org.eclipse.cdt.ui=6.6.100.201911141456
+@org.eclipse.core.net=1.3.700.v20191122-2107
+@org.eclipse.core.resources=3.13.600.v20191122-2104
+@org.eclipse.core.variables=3.4.700.v20191114-1848
+@org.eclipse.debug.core=3.14.100.v20191115-1406
+@org.eclipse.debug.ui=3.14.300.v20191116-2105
+@org.eclipse.e4.ui.css.swt.theme=0.12.500.v20191125-1011
+@org.eclipse.e4.ui.workbench.renderers.swt=0.14.900.v20191114-0715
+@org.eclipse.jdt.core=3.20.0.v20191203-2131
+@org.eclipse.jdt.debug.ui=3.10.500.v20191130-0156
+@org.eclipse.jdt.launching=3.16.0.v20191108-0353
+@org.eclipse.jdt.ui=3.20.0.v20191203-1301
+@org.eclipse.jsch.core=1.3.700.v20190925-1021
+@org.eclipse.launchbar.core=2.3.0.201911192211
+@org.eclipse.search=3.11.800.v20191122-2108
+@org.eclipse.ui=3.115.0.v20191127-1056
+@org.eclipse.ui.browser=3.6.600.v20191122-2109
+@org.eclipse.ui.editors=3.13.0.v20191203-1122
+@org.eclipse.ui.ide=3.16.100.v20191122-2109
+@org.eclipse.ui.workbench=3.117.0.v20191126-1131
+file_export_version=3.0

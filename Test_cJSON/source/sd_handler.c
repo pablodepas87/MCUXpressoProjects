@@ -18,7 +18,6 @@
 #include "fsl_iocon.h"
 
 static FATFS g_fileSystem; /* File system object */
-static FIL g_fileObject;   /* File object */
 BYTE work[FF_MAX_SS];
 const TCHAR driverNumberBuffer[3U] = {SDDISK + '0', ':', '/'};
 FRESULT error;
@@ -113,14 +112,14 @@ UINT make_dir(char *path){
 			return -1;
 		}
 	}
+	return 1;
 }
 
-UINT create_file_dir(char *dirpath , char *filename) {
-	char *path;
-	PRINTF("\r\nCreate %s file in %s.....\r\n",filename,dirpath);
-	path = strcpy(dirpath,"/");
-    path = strcpy(path,filename);
-	error = f_open(&g_fileObject, _T(path), (FA_WRITE | FA_READ | FA_CREATE_ALWAYS));
+UINT create_file_into_sd(char *filepath , FIL* g_fileObject ) {
+
+	PRINTF("\r\nCreate %s.....\r\n",filepath);
+
+	error = f_open(g_fileObject, _T(filepath), ( FA_WRITE | FA_OPEN_APPEND));
 	if (error)
 	{
 		if (error == FR_EXIST)
@@ -133,17 +132,18 @@ UINT create_file_dir(char *dirpath , char *filename) {
 			PRINTF("Open file failed.\r\n");
 			return -1;
 		}
+	}else {
+		PRINTF("file created.\r\n");
 	}
 	return 1;
 
 }
 
-UINT create_dir_in_dir(char *dirpath, char *newdirpath){
-	char *path;
+UINT create_dir_in_dir(char *dirpath){
+
 	PRINTF("\r\nCreate a directory in that directory......\r\n");
-	path = strcpy(dirpath,"/");
-	path = strcpy(path,newdirpath);
-	error = f_mkdir(_T(path));
+
+	error = f_mkdir(_T(dirpath));
 
 	if (error)
 	{
@@ -192,4 +192,46 @@ UINT show_list_file_in_dir(char *path) {
 	            PRINTF("General file : %s.\r\n", fileInformation.fname);
 	        }
 	    }
+	    return 1;
+}
+
+char *readAllFile(char *filepath , FIL* g_fileObject) {
+	char *buffer = NULL;
+	UINT filesize;
+	UINT bytesRead;
+
+	error = f_open(g_fileObject, _T(filepath), ( FA_READ | FA_OPEN_ALWAYS));
+	if (error)
+	{
+		if (error != FR_EXIST)
+		{
+			PRINTF("Open file failed.\r\n");
+
+		}
+	}
+
+	f_lseek(g_fileObject, f_size(g_fileObject)); // mi posiziono in fondo al file
+	filesize =f_tell(g_fileObject);              // restituisce i byte dalla posizione del puntatore del file
+	f_rewind(g_fileObject);                      // mi rimetto alla posizione 0
+
+	buffer = calloc(1,filesize+1);
+	error = f_read(g_fileObject, buffer, filesize, &bytesRead);
+	if ((error) || bytesRead !=  filesize)
+	{
+		PRINTF("Read file failed. \r\n");
+		return '\0';
+	}
+	return buffer;
+}
+
+UINT close_file(FIL* g_fileObject){
+
+	if (f_close(g_fileObject) == FR_OK){
+		PRINTF("\r\nFile closed.\r\n");
+	}
+	else {
+		PRINTF("\r\nClose file failed.\r\n");
+		return -1;
+	}
+    return 1;
 }
