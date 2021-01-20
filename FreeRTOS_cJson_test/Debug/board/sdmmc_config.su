@@ -1,0 +1,4 @@
+core_cm33.h:2324:22:__NVIC_SetPriority	16	static
+sdmmc_config.c:31:10:BOARD_SDIF0ClockConfiguration	8	static
+sdmmc_config.c:42:6:BOARD_SDCardDetectInit	16	static
+sdmmc_config.c:53:6:BOARD_SD_Config	32	static
