@@ -1,6 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
-C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
                               ./drivers/fsl_clock.o (POWER_SetVoltageForFreq)
 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldf3.o)
                               ./source/cJSON.o (__aeabi_dmul)
@@ -453,8 +453,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./utilities/fsl_debug_console.o
  .debug_macro   0x00000000      0x145 ./utilities/fsl_debug_console.o
  .debug_macro   0x00000000       0x1c ./utilities/fsl_debug_console.o
- .debug_line    0x00000000      0x8bf ./utilities/fsl_debug_console.o
- .debug_str     0x00000000    0xadaa8 ./utilities/fsl_debug_console.o
+ .debug_line    0x00000000      0x8ce ./utilities/fsl_debug_console.o
+ .debug_str     0x00000000    0xadaab ./utilities/fsl_debug_console.o
  .comment       0x00000000       0x7a ./utilities/fsl_debug_console.o
  .debug_frame   0x00000000       0xc4 ./utilities/fsl_debug_console.o
  .ARM.attributes
@@ -586,8 +586,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./utilities/fsl_str.o
  .debug_macro   0x00000000       0xd2 ./utilities/fsl_str.o
  .debug_macro   0x00000000       0x56 ./utilities/fsl_str.o
- .debug_line    0x00000000      0xcfd ./utilities/fsl_str.o
- .debug_str     0x00000000    0xabfb7 ./utilities/fsl_str.o
+ .debug_line    0x00000000      0xd06 ./utilities/fsl_str.o
+ .debug_str     0x00000000    0xabfba ./utilities/fsl_str.o
  .comment       0x00000000       0x7a ./utilities/fsl_str.o
  .debug_frame   0x00000000      0x304 ./utilities/fsl_str.o
  .ARM.attributes
@@ -1734,8 +1734,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x7c ./sdmmc/src/fsl_mmc.o
  .debug_macro   0x00000000      0x329 ./sdmmc/src/fsl_mmc.o
  .debug_macro   0x00000000       0x40 ./sdmmc/src/fsl_mmc.o
- .debug_line    0x00000000     0x2129 ./sdmmc/src/fsl_mmc.o
- .debug_str     0x00000000    0xb1454 ./sdmmc/src/fsl_mmc.o
+ .debug_line    0x00000000     0x2141 ./sdmmc/src/fsl_mmc.o
+ .debug_str     0x00000000    0xb1457 ./sdmmc/src/fsl_mmc.o
  .comment       0x00000000       0x7a ./sdmmc/src/fsl_mmc.o
  .debug_frame   0x00000000      0x82c ./sdmmc/src/fsl_mmc.o
  .ARM.attributes
@@ -2173,8 +2173,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x329 ./sdmmc/src/fsl_sdio.o
  .debug_macro   0x00000000       0x40 ./sdmmc/src/fsl_sdio.o
  .debug_macro   0x00000000       0x10 ./sdmmc/src/fsl_sdio.o
- .debug_line    0x00000000     0x1d40 ./sdmmc/src/fsl_sdio.o
- .debug_str     0x00000000    0xb04f6 ./sdmmc/src/fsl_sdio.o
+ .debug_line    0x00000000     0x1d58 ./sdmmc/src/fsl_sdio.o
+ .debug_str     0x00000000    0xb04f9 ./sdmmc/src/fsl_sdio.o
  .comment       0x00000000       0x7a ./sdmmc/src/fsl_sdio.o
  .debug_frame   0x00000000      0x6b8 ./sdmmc/src/fsl_sdio.o
  .ARM.attributes
@@ -2636,8 +2636,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x1a ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
  .debug_macro   0x00000000      0xaea ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
  .debug_macro   0x00000000      0x113 ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
- .debug_line    0x00000000       0x96 ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
- .debug_str     0x00000000     0x31cd ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
+ .debug_line    0x00000000       0x99 ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
+ .debug_str     0x00000000     0x31d0 ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
  .comment       0x00000000       0x7a ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
  .ARM.attributes
                 0x00000000       0x3c ./fatfs/source/fsl_ram_disk/fsl_ram_disk.o
@@ -2816,8 +2816,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x113 ./fatfs/source/ffsystem.o
  .debug_macro   0x00000000      0x34e ./fatfs/source/ffsystem.o
  .debug_macro   0x00000000       0xef ./fatfs/source/ffsystem.o
- .debug_line    0x00000000      0x133 ./fatfs/source/ffsystem.o
- .debug_str     0x00000000     0x3f0b ./fatfs/source/ffsystem.o
+ .debug_line    0x00000000      0x136 ./fatfs/source/ffsystem.o
+ .debug_str     0x00000000     0x3f0e ./fatfs/source/ffsystem.o
  .comment       0x00000000       0x7a ./fatfs/source/ffsystem.o
  .ARM.attributes
                 0x00000000       0x3c ./fatfs/source/ffsystem.o
@@ -3309,8 +3309,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x2ca ./drivers/fsl_gpio.o
  .debug_macro   0x00000000       0x16 ./drivers/fsl_gpio.o
  .debug_macro   0x00000000       0xd2 ./drivers/fsl_gpio.o
- .debug_line    0x00000000      0x5f0 ./drivers/fsl_gpio.o
- .debug_str     0x00000000    0xacd7e ./drivers/fsl_gpio.o
+ .debug_line    0x00000000      0x5f6 ./drivers/fsl_gpio.o
+ .debug_str     0x00000000    0xacd81 ./drivers/fsl_gpio.o
  .comment       0x00000000       0x7a ./drivers/fsl_gpio.o
  .debug_frame   0x00000000       0x84 ./drivers/fsl_gpio.o
  .ARM.attributes
@@ -3536,8 +3536,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xd2 ./drivers/fsl_i2c.o
  .debug_macro   0x00000000       0x46 ./drivers/fsl_i2c.o
  .debug_macro   0x00000000       0x10 ./drivers/fsl_i2c.o
- .debug_line    0x00000000     0x143b ./drivers/fsl_i2c.o
- .debug_str     0x00000000    0xad006 ./drivers/fsl_i2c.o
+ .debug_line    0x00000000     0x1441 ./drivers/fsl_i2c.o
+ .debug_str     0x00000000    0xad009 ./drivers/fsl_i2c.o
  .comment       0x00000000       0x7a ./drivers/fsl_i2c.o
  .debug_frame   0x00000000      0x6f0 ./drivers/fsl_i2c.o
  .ARM.attributes
@@ -3626,8 +3626,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./drivers/fsl_power.o
  .debug_macro   0x00000000       0xd2 ./drivers/fsl_power.o
  .debug_macro   0x00000000      0x457 ./drivers/fsl_power.o
- .debug_line    0x00000000      0x55e ./drivers/fsl_power.o
- .debug_str     0x00000000    0xacb7a ./drivers/fsl_power.o
+ .debug_line    0x00000000      0x564 ./drivers/fsl_power.o
+ .debug_str     0x00000000    0xacb7d ./drivers/fsl_power.o
  .comment       0x00000000       0x7a ./drivers/fsl_power.o
  .ARM.attributes
                 0x00000000       0x3c ./drivers/fsl_power.o
@@ -4027,8 +4027,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xd2 ./drivers/fsl_usart.o
  .debug_macro   0x00000000       0x1c ./drivers/fsl_usart.o
  .debug_macro   0x00000000       0x10 ./drivers/fsl_usart.o
- .debug_line    0x00000000     0x106d ./drivers/fsl_usart.o
- .debug_str     0x00000000    0xaccc8 ./drivers/fsl_usart.o
+ .debug_line    0x00000000     0x1073 ./drivers/fsl_usart.o
+ .debug_str     0x00000000    0xacccb ./drivers/fsl_usart.o
  .comment       0x00000000       0x7a ./drivers/fsl_usart.o
  .debug_frame   0x00000000      0x3d4 ./drivers/fsl_usart.o
  .ARM.attributes
@@ -4205,8 +4205,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./component/uart/usart_adapter.o
  .debug_macro   0x00000000       0x10 ./component/uart/usart_adapter.o
  .debug_macro   0x00000000       0x2e ./component/uart/usart_adapter.o
- .debug_line    0x00000000      0x756 ./component/uart/usart_adapter.o
- .debug_str     0x00000000    0xac854 ./component/uart/usart_adapter.o
+ .debug_line    0x00000000      0x75f ./component/uart/usart_adapter.o
+ .debug_str     0x00000000    0xac857 ./component/uart/usart_adapter.o
  .comment       0x00000000       0x7a ./component/uart/usart_adapter.o
  .debug_frame   0x00000000      0x110 ./component/uart/usart_adapter.o
  .ARM.attributes
@@ -4360,8 +4360,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./component/serial_manager/serial_manager.o
  .debug_macro   0x00000000       0x2e ./component/serial_manager/serial_manager.o
  .debug_macro   0x00000000       0x47 ./component/serial_manager/serial_manager.o
- .debug_line    0x00000000      0x9df ./component/serial_manager/serial_manager.o
- .debug_str     0x00000000    0xabbf5 ./component/serial_manager/serial_manager.o
+ .debug_line    0x00000000      0x9eb ./component/serial_manager/serial_manager.o
+ .debug_str     0x00000000    0xabbf8 ./component/serial_manager/serial_manager.o
  .comment       0x00000000       0x7a ./component/serial_manager/serial_manager.o
  .debug_frame   0x00000000      0x258 ./component/serial_manager/serial_manager.o
  .ARM.attributes
@@ -4483,8 +4483,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./component/serial_manager/serial_port_uart.o
  .debug_macro   0x00000000       0x2e ./component/serial_manager/serial_port_uart.o
  .debug_macro   0x00000000       0x47 ./component/serial_manager/serial_port_uart.o
- .debug_line    0x00000000      0x7a5 ./component/serial_manager/serial_port_uart.o
- .debug_str     0x00000000    0xabbd8 ./component/serial_manager/serial_port_uart.o
+ .debug_line    0x00000000      0x7b1 ./component/serial_manager/serial_port_uart.o
+ .debug_str     0x00000000    0xabbdb ./component/serial_manager/serial_port_uart.o
  .comment       0x00000000       0x7a ./component/serial_manager/serial_port_uart.o
  .debug_frame   0x00000000       0xe8 ./component/serial_manager/serial_port_uart.o
  .ARM.attributes
@@ -4771,8 +4771,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x2ca ./component/lists/generic_list.o
  .debug_macro   0x00000000       0x16 ./component/lists/generic_list.o
  .debug_macro   0x00000000       0xd2 ./component/lists/generic_list.o
- .debug_line    0x00000000      0x8d9 ./component/lists/generic_list.o
- .debug_str     0x00000000    0xab2f6 ./component/lists/generic_list.o
+ .debug_line    0x00000000      0x8e2 ./component/lists/generic_list.o
+ .debug_str     0x00000000    0xab2f9 ./component/lists/generic_list.o
  .comment       0x00000000       0x7a ./component/lists/generic_list.o
  .debug_frame   0x00000000      0x254 ./component/lists/generic_list.o
  .ARM.attributes
@@ -5008,7 +5008,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x1b ./board/peripherals.o
  .debug_macro   0x00000000      0xaea ./board/peripherals.o
  .debug_line    0x00000000       0x71 ./board/peripherals.o
- .debug_str     0x00000000     0x2f42 ./board/peripherals.o
+ .debug_str     0x00000000     0x2f45 ./board/peripherals.o
  .comment       0x00000000       0x7a ./board/peripherals.o
  .debug_frame   0x00000000       0x4c ./board/peripherals.o
  .ARM.attributes
@@ -5201,33 +5201,33 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./board/sdmmc_config.o
  .debug_macro   0x00000000       0x34 ./board/sdmmc_config.o
  .debug_macro   0x00000000       0xf6 ./board/sdmmc_config.o
- .text          0x00000000        0x0 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
- .data          0x00000000        0x0 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
- .bss           0x00000000        0x0 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .text          0x00000000        0x0 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .data          0x00000000        0x0 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .bss           0x00000000        0x0 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.CLOCK_u8OscCapConvert
-                0x00000000       0x22 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0x22 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterLowPower
-                0x00000000       0x9c C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0x9c C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_CycleCpuAndFlash
-                0x00000000       0x20 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0x20 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterDeepSleep
-                0x00000000      0x100 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000      0x100 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterPowerDown
-                0x00000000      0x15c C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000      0x15c C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterDeepPowerDown
-                0x00000000      0x200 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000      0x200 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterSleep
-                0x00000000       0x1c C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0x1c C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_GetLibVersion
-                0x00000000        0x6 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000        0x6 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_Xtal32khzCapabankTrim
-                0x00000000       0xa4 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0xa4 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_SetXtal16mhzLdo
-                0x00000000       0x30 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0x30 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_Xtal16mhzCapabankTrim
-                0x00000000       0xc4 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0xc4 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_SetXtal16mhzTrim
-                0x00000000       0x20 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000000       0x20 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text          0x00000000      0x254 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldf3.o)
  .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldf3.o)
  .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldf3.o)
@@ -5753,7 +5753,7 @@ LOAD ./board/clock_config.o
 LOAD ./board/peripherals.o
 LOAD ./board/pin_mux.o
 LOAD ./board/sdmmc_config.o
-LOAD C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a
+LOAD C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a
 START GROUP
 LOAD c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a
 LOAD c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc.a
@@ -6304,11 +6304,11 @@ END GROUP
                 0x0000d38c       0x8c ./board/sdmmc_config.o
                 0x0000d38c                BOARD_SD_Config
  .text.lowpower_set_system_voltage
-                0x0000d418       0xa0 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x0000d418       0xa0 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.lowpower_set_voltage_for_process
-                0x0000d4b8       0x84 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x0000d4b8       0x84 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .text.POWER_SetVoltageForFreq
-                0x0000d53c       0x84 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x0000d53c       0x84 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
                 0x0000d53c                POWER_SetVoltageForFreq
  .text          0x0000d5c0      0x378 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_addsubdf3.o)
                 0x0000d5c0                __aeabi_drsub
@@ -7968,7 +7968,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .ARM.attributes
                 0x00000606       0x3a ./board/sdmmc_config.o
  .ARM.attributes
-                0x00000640       0x3a C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x00000640       0x3a C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .ARM.attributes
                 0x0000067a       0x22 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
@@ -8173,7 +8173,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .comment       0x00000079       0x7a ./board/clock_config.o
  .comment       0x00000079       0x7a ./board/pin_mux.o
  .comment       0x00000079       0x7a ./board/sdmmc_config.o
- .comment       0x00000079       0x7a C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .comment       0x00000079       0x7a C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .comment       0x00000079       0x7a c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libcr_newlib_semihost.a(_cr_sbrk.o)
  .comment       0x00000079       0x7a c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libcr_newlib_semihost.a(syscalls.o)
  .comment       0x00000079       0x7a c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libcr_newlib_semihost.a(_cr_check_heap.o)
@@ -8206,7 +8206,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .debug_info    0x00027e13     0x1e26 ./board/clock_config.o
  .debug_info    0x00029c39     0x17e6 ./board/pin_mux.o
  .debug_info    0x0002b41f     0x2743 ./board/sdmmc_config.o
- .debug_info    0x0002db62     0x34c6 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_info    0x0002db62     0x34c6 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
 
 .debug_abbrev   0x00000000     0x4adc
  .debug_abbrev  0x00000000      0x1af ./utilities/fsl_assert.o
@@ -8236,7 +8236,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .debug_abbrev  0x00003d9f      0x2cb ./board/clock_config.o
  .debug_abbrev  0x0000406a      0x2c4 ./board/pin_mux.o
  .debug_abbrev  0x0000432e      0x31a ./board/sdmmc_config.o
- .debug_abbrev  0x00004648      0x494 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_abbrev  0x00004648      0x494 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
 
 .debug_aranges  0x00000000     0x1560
  .debug_aranges
@@ -8294,7 +8294,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .debug_aranges
                 0x00001498       0x38 ./board/sdmmc_config.o
  .debug_aranges
-                0x000014d0       0x90 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                0x000014d0       0x90 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
 
 .debug_ranges   0x00000000     0x1580
  .debug_ranges  0x00000000       0x10 ./utilities/fsl_assert.o
@@ -8324,7 +8324,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .debug_ranges  0x00001308       0x40 ./board/clock_config.o
  .debug_ranges  0x00001348       0x28 ./board/pin_mux.o
  .debug_ranges  0x00001370       0x28 ./board/sdmmc_config.o
- .debug_ranges  0x00001398      0x1e8 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_ranges  0x00001398      0x1e8 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
 
 .debug_macro    0x00000000    0x1a13f
  .debug_macro   0x00000000      0x2fe ./utilities/fsl_assert.o
@@ -8450,92 +8450,92 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .debug_macro   0x00019c96      0x207 ./board/pin_mux.o
  .debug_macro   0x00019e9d      0x2a2 ./board/sdmmc_config.o
 
-.debug_line     0x00000000    0x174be
- .debug_line    0x00000000      0x74d ./utilities/fsl_assert.o
- .debug_line    0x0000074d      0x6a0 ./startup/startup_lpc55s28.o
- .debug_line    0x00000ded      0xb86 ./source/Test_cJSON.o
- .debug_line    0x00001973     0x2a9d ./source/cJSON.o
- .debug_line    0x00004410      0x76a ./source/inizializations.o
- .debug_line    0x00004b7a      0xa2d ./source/json_handler.o
- .debug_line    0x000055a7      0xd50 ./source/sd_handler.o
- .debug_line    0x000062f7       0x59 ./source/semihost_hardfault.o
- .debug_line    0x00006350     0x1edc ./sdmmc/src/fsl_sd.o
- .debug_line    0x0000822c      0x94d ./sdmmc/src/fsl_sdmmc_common.o
- .debug_line    0x00008b79      0x7a6 ./sdmmc/osa/fsl_sdmmc_osa.o
- .debug_line    0x0000931f      0xd86 ./sdmmc/host/fsl_sdmmc_host.o
- .debug_line    0x0000a0a5      0xa3c ./fatfs/source/fsl_sd_disk/fsl_sd_disk.o
- .debug_line    0x0000aae1      0x989 ./fatfs/source/diskio.o
- .debug_line    0x0000b46a     0x388e ./fatfs/source/ff.o
- .debug_line    0x0000ecf8      0x2d6 ./fatfs/source/ffunicode.o
- .debug_line    0x0000efce     0x18cf ./drivers/fsl_clock.o
- .debug_line    0x0001089d      0x632 ./drivers/fsl_common.o
- .debug_line    0x00010ecf      0x827 ./drivers/fsl_flexcomm.o
- .debug_line    0x000116f6      0x5f9 ./drivers/fsl_reset.o
- .debug_line    0x00011cef     0x155c ./drivers/fsl_sdif.o
- .debug_line    0x0001324b      0x5ee ./device/system_LPC55S28.o
- .debug_line    0x00013839      0xd1a ./component/osa/fsl_os_abstraction_bm.o
- .debug_line    0x00014553      0x7fc ./board/board.o
- .debug_line    0x00014d4f      0x6fc ./board/clock_config.o
- .debug_line    0x0001544b      0x705 ./board/pin_mux.o
- .debug_line    0x00015b50      0x8a8 ./board/sdmmc_config.o
- .debug_line    0x000163f8     0x10c6 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+.debug_line     0x00000000    0x17659
+ .debug_line    0x00000000      0x75c ./utilities/fsl_assert.o
+ .debug_line    0x0000075c      0x6a0 ./startup/startup_lpc55s28.o
+ .debug_line    0x00000dfc      0xbb3 ./source/Test_cJSON.o
+ .debug_line    0x000019af     0x2a9d ./source/cJSON.o
+ .debug_line    0x0000444c      0x776 ./source/inizializations.o
+ .debug_line    0x00004bc2      0xa4e ./source/json_handler.o
+ .debug_line    0x00005610      0xd7d ./source/sd_handler.o
+ .debug_line    0x0000638d       0x59 ./source/semihost_hardfault.o
+ .debug_line    0x000063e6     0x1ef4 ./sdmmc/src/fsl_sd.o
+ .debug_line    0x000082da      0x965 ./sdmmc/src/fsl_sdmmc_common.o
+ .debug_line    0x00008c3f      0x7b5 ./sdmmc/osa/fsl_sdmmc_osa.o
+ .debug_line    0x000093f4      0xd9e ./sdmmc/host/fsl_sdmmc_host.o
+ .debug_line    0x0000a192      0xa5a ./fatfs/source/fsl_sd_disk/fsl_sd_disk.o
+ .debug_line    0x0000abec      0x9aa ./fatfs/source/diskio.o
+ .debug_line    0x0000b596     0x3891 ./fatfs/source/ff.o
+ .debug_line    0x0000ee27      0x2d9 ./fatfs/source/ffunicode.o
+ .debug_line    0x0000f100     0x18d5 ./drivers/fsl_clock.o
+ .debug_line    0x000109d5      0x638 ./drivers/fsl_common.o
+ .debug_line    0x0001100d      0x82d ./drivers/fsl_flexcomm.o
+ .debug_line    0x0001183a      0x5ff ./drivers/fsl_reset.o
+ .debug_line    0x00011e39     0x1562 ./drivers/fsl_sdif.o
+ .debug_line    0x0001339b      0x5f1 ./device/system_LPC55S28.o
+ .debug_line    0x0001398c      0xd26 ./component/osa/fsl_os_abstraction_bm.o
+ .debug_line    0x000146b2      0x80e ./board/board.o
+ .debug_line    0x00014ec0      0x705 ./board/clock_config.o
+ .debug_line    0x000155c5      0x70e ./board/pin_mux.o
+ .debug_line    0x00015cd3      0x8c0 ./board/sdmmc_config.o
+ .debug_line    0x00016593     0x10c6 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
 
-.debug_str      0x00000000    0xc45a3
- .debug_str     0x00000000    0xac6c9 ./utilities/fsl_assert.o
-                              0xac9de (size before relaxing)
- .debug_str     0x000ac6c9      0x68c ./startup/startup_lpc55s28.o
-                               0x35e5 (size before relaxing)
- .debug_str     0x000acd55     0x59be ./source/Test_cJSON.o
-                              0xb24c3 (size before relaxing)
- .debug_str     0x000b2713     0x210c ./source/cJSON.o
-                               0xa966 (size before relaxing)
- .debug_str     0x000b481f     0x4bcf ./source/inizializations.o
-                              0xb16e4 (size before relaxing)
- .debug_str     0x000b93ee       0x6b ./source/json_handler.o
-                              0xaf5ec (size before relaxing)
- .debug_str     0x000b9459      0x17e ./source/sd_handler.o
-                              0xb1a71 (size before relaxing)
- .debug_str     0x000b95d7       0x1f ./source/semihost_hardfault.o
-                               0x2f1b (size before relaxing)
- .debug_str     0x000b95f6     0x1a93 ./sdmmc/src/fsl_sd.o
-                              0xb0980 (size before relaxing)
- .debug_str     0x000bb089       0x73 ./sdmmc/src/fsl_sdmmc_common.o
-                              0xae991 (size before relaxing)
- .debug_str     0x000bb0fc      0x147 ./sdmmc/osa/fsl_sdmmc_osa.o
-                              0xabd42 (size before relaxing)
- .debug_str     0x000bb243      0x83e ./sdmmc/host/fsl_sdmmc_host.o
-                              0xae8c1 (size before relaxing)
- .debug_str     0x000bba81       0xbd ./fatfs/source/fsl_sd_disk/fsl_sd_disk.o
-                              0xb094c (size before relaxing)
- .debug_str     0x000bbb3e       0x19 ./fatfs/source/diskio.o
-                              0xaecc1 (size before relaxing)
- .debug_str     0x000bbb57     0x3e39 ./fatfs/source/ff.o
-                               0x824f (size before relaxing)
- .debug_str     0x000bf990       0x8f ./fatfs/source/ffunicode.o
-                               0x3fa7 (size before relaxing)
- .debug_str     0x000bfa1f     0x1649 ./drivers/fsl_clock.o
-                              0xb0519 (size before relaxing)
- .debug_str     0x000c1068      0x12d ./drivers/fsl_common.o
-                              0xab1e2 (size before relaxing)
- .debug_str     0x000c1195      0xd17 ./drivers/fsl_flexcomm.o
-                              0xad3f5 (size before relaxing)
- .debug_str     0x000c1eac       0xae ./drivers/fsl_reset.o
-                              0xabe6b (size before relaxing)
- .debug_str     0x000c1f5a      0xbac ./drivers/fsl_sdif.o
-                              0xae8ea (size before relaxing)
- .debug_str     0x000c2b06      0x20d ./device/system_LPC55S28.o
-                              0xa6497 (size before relaxing)
- .debug_str     0x000c2d13      0x595 ./component/osa/fsl_os_abstraction_bm.o
-                              0xac9c8 (size before relaxing)
- .debug_str     0x000c32a8       0xe1 ./board/board.o
-                              0xaf5a7 (size before relaxing)
- .debug_str     0x000c3389       0xac ./board/clock_config.o
-                              0xae63f (size before relaxing)
- .debug_str     0x000c3435       0x7f ./board/pin_mux.o
-                              0xac673 (size before relaxing)
- .debug_str     0x000c34b4       0x9f ./board/sdmmc_config.o
-                              0xb0ad7 (size before relaxing)
- .debug_str     0x000c3553     0x1050 C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+.debug_str      0x00000000    0xc45a6
+ .debug_str     0x00000000    0xac6cc ./utilities/fsl_assert.o
+                              0xac9e1 (size before relaxing)
+ .debug_str     0x000ac6cc      0x68c ./startup/startup_lpc55s28.o
+                               0x35e8 (size before relaxing)
+ .debug_str     0x000acd58     0x59be ./source/Test_cJSON.o
+                              0xb24c6 (size before relaxing)
+ .debug_str     0x000b2716     0x210c ./source/cJSON.o
+                               0xa969 (size before relaxing)
+ .debug_str     0x000b4822     0x4bcf ./source/inizializations.o
+                              0xb16e7 (size before relaxing)
+ .debug_str     0x000b93f1       0x6b ./source/json_handler.o
+                              0xaf5ef (size before relaxing)
+ .debug_str     0x000b945c      0x17e ./source/sd_handler.o
+                              0xb1a74 (size before relaxing)
+ .debug_str     0x000b95da       0x1f ./source/semihost_hardfault.o
+                               0x2f1e (size before relaxing)
+ .debug_str     0x000b95f9     0x1a93 ./sdmmc/src/fsl_sd.o
+                              0xb0983 (size before relaxing)
+ .debug_str     0x000bb08c       0x73 ./sdmmc/src/fsl_sdmmc_common.o
+                              0xae994 (size before relaxing)
+ .debug_str     0x000bb0ff      0x147 ./sdmmc/osa/fsl_sdmmc_osa.o
+                              0xabd45 (size before relaxing)
+ .debug_str     0x000bb246      0x83e ./sdmmc/host/fsl_sdmmc_host.o
+                              0xae8c4 (size before relaxing)
+ .debug_str     0x000bba84       0xbd ./fatfs/source/fsl_sd_disk/fsl_sd_disk.o
+                              0xb094f (size before relaxing)
+ .debug_str     0x000bbb41       0x19 ./fatfs/source/diskio.o
+                              0xaecc4 (size before relaxing)
+ .debug_str     0x000bbb5a     0x3e39 ./fatfs/source/ff.o
+                               0x8252 (size before relaxing)
+ .debug_str     0x000bf993       0x8f ./fatfs/source/ffunicode.o
+                               0x3faa (size before relaxing)
+ .debug_str     0x000bfa22     0x1649 ./drivers/fsl_clock.o
+                              0xb051c (size before relaxing)
+ .debug_str     0x000c106b      0x12d ./drivers/fsl_common.o
+                              0xab1e5 (size before relaxing)
+ .debug_str     0x000c1198      0xd17 ./drivers/fsl_flexcomm.o
+                              0xad3f8 (size before relaxing)
+ .debug_str     0x000c1eaf       0xae ./drivers/fsl_reset.o
+                              0xabe6e (size before relaxing)
+ .debug_str     0x000c1f5d      0xbac ./drivers/fsl_sdif.o
+                              0xae8ed (size before relaxing)
+ .debug_str     0x000c2b09      0x20d ./device/system_LPC55S28.o
+                              0xa649a (size before relaxing)
+ .debug_str     0x000c2d16      0x595 ./component/osa/fsl_os_abstraction_bm.o
+                              0xac9cb (size before relaxing)
+ .debug_str     0x000c32ab       0xe1 ./board/board.o
+                              0xaf5aa (size before relaxing)
+ .debug_str     0x000c338c       0xac ./board/clock_config.o
+                              0xae642 (size before relaxing)
+ .debug_str     0x000c3438       0x7f ./board/pin_mux.o
+                              0xac676 (size before relaxing)
+ .debug_str     0x000c34b7       0x9f ./board/sdmmc_config.o
+                              0xb0ada (size before relaxing)
+ .debug_str     0x000c3556     0x1050 C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
                                0x31c0 (size before relaxing)
 
 .debug_frame    0x00000000     0x7154
@@ -8566,7 +8566,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .debug_frame   0x00004f58       0xf8 ./board/clock_config.o
  .debug_frame   0x00005050       0xa0 ./board/pin_mux.o
  .debug_frame   0x000050f0       0xa4 ./board/sdmmc_config.o
- .debug_frame   0x00005194      0x19c C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_frame   0x00005194      0x19c C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
  .debug_frame   0x00005330       0xac c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_addsubdf3.o)
  .debug_frame   0x000053dc       0xc4 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_cmpdf2.o)
  .debug_frame   0x000054a0       0x20 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_unorddf2.o)
@@ -8649,7 +8649,7 @@ OUTPUT(Test_cJSON.axf elf32-littlearm)
  .debug_frame   0x00007134       0x20 c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-errno.o)
 
 .debug_loc      0x00000000     0x183f
- .debug_loc     0x00000000     0x183f C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_loc     0x00000000     0x183f C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
 
 Cross Reference Table
 
@@ -8681,7 +8681,7 @@ BusFault_Handler                                  ./startup/startup_lpc55s28.o
 CASER_DriverIRQHandler                            ./startup/startup_lpc55s28.o
 CASER_IRQHandler                                  ./startup/startup_lpc55s28.o
 CLOCK_AttachClk                                   ./drivers/fsl_clock.o
-                                                  C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                                                  C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
                                                   ./board/sdmmc_config.o
                                                   ./board/clock_config.o
                                                   ./board/board.o
@@ -8722,7 +8722,7 @@ CLOCK_GetUsb0ClkFreq                              ./drivers/fsl_clock.o
 CLOCK_GetUsb1ClkFreq                              ./drivers/fsl_clock.o
 CLOCK_GetWdtClkFreq                               ./drivers/fsl_clock.o
 CLOCK_SetClkDiv                                   ./drivers/fsl_clock.o
-                                                  C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                                                  C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
                                                   ./board/sdmmc_config.o
                                                   ./board/clock_config.o
 CLOCK_SetFLASHAccessCyclesForFreq                 ./drivers/fsl_clock.o
@@ -8943,19 +8943,19 @@ PIN_INT7_DriverIRQHandler                         ./startup/startup_lpc55s28.o
 PIN_INT7_IRQHandler                               ./startup/startup_lpc55s28.o
 PLU_DriverIRQHandler                              ./startup/startup_lpc55s28.o
 PLU_IRQHandler                                    ./startup/startup_lpc55s28.o
-POWER_CycleCpuAndFlash                            C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_EnterDeepPowerDown                          C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_EnterDeepSleep                              C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_EnterPowerDown                              C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_EnterSleep                                  C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_GetLibVersion                               C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_SetVoltageForFreq                           C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_CycleCpuAndFlash                            C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_EnterDeepPowerDown                          C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_EnterDeepSleep                              C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_EnterPowerDown                              C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_EnterSleep                                  C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_GetLibVersion                               C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_SetVoltageForFreq                           C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
                                                   ./board/clock_config.o
                                                   ./drivers/fsl_clock.o
-POWER_SetXtal16mhzLdo                             C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_SetXtal16mhzTrim                            C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_Xtal16mhzCapabankTrim                       C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
-POWER_Xtal32khzCapabankTrim                       C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_SetXtal16mhzLdo                             C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_SetXtal16mhzTrim                            C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_Xtal16mhzCapabankTrim                       C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+POWER_Xtal32khzCapabankTrim                       C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
 PQ_DriverIRQHandler                               ./startup/startup_lpc55s28.o
 PQ_IRQHandler                                     ./startup/startup_lpc55s28.o
 PUF_DriverIRQHandler                              ./startup/startup_lpc55s28.o
@@ -10120,7 +10120,7 @@ memset                                            c:/nxp/mcuxpressoide_11.2.1_41
                                                   c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc.a(lib_a-findfp.o)
                                                   c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc.a(lib_a-svfscanf.o)
                                                   c:/nxp/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc.a(lib_a-callocr.o)
-                                                  C:\Users\rappi\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
+                                                  C:\Users\rapicano\Documents\MCUXpressoProjects\Test_cJSON\libs\libpower_hardabi.a(fsl_power_lib.o)
                                                   ./board/clock_config.o
                                                   ./component/osa/fsl_os_abstraction_bm.o
                                                   ./component/serial_manager/serial_manager.o

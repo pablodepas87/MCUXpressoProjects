@@ -48,7 +48,7 @@ all: FreeRTOS_cJson_test.axf
 FreeRTOS_cJson_test.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\rapicano\Documents\MCUXpressoIDE_11.2.1_4149\workspace\FreeRTOS_cJson_test\libs" -Xlinker -Map="FreeRTOS_cJson_test.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T FreeRTOS_cJson_test_Debug.ld -o "FreeRTOS_cJson_test.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\rapicano\Documents\MCUXpressoProjects\FreeRTOS_cJson_test\libs" -Xlinker -Map="FreeRTOS_cJson_test.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T FreeRTOS_cJson_test_Debug.ld -u _printf_float -u _scanf_float -o "FreeRTOS_cJson_test.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

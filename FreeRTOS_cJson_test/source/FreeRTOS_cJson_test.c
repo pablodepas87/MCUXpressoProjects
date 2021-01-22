@@ -37,14 +37,11 @@
 #define CARDDETECT_TASK_STACK_SIZE (1024U)
 /*! @brief Task stack priority. */
 #define CARDDETECT_TASK_PRIORITY (configMAX_PRIORITIES - 1U)
+
 /*******************************************************************************
  * Prototypes
  ******************************************************************************/
-/*!
- * @brief SD card access task 1.
- *
- * @param pvParameters Task parameter.
- */
+
 extern void board_init();
 extern char* createJson();
 extern void parseJson( const char *json_string);
@@ -66,18 +63,14 @@ static FATFS g_fileSystem; /* File system object */
 static FIL g_fileObject;   /* File object */
 static uint32_t s_taskSleepTicks = portMAX_DELAY;
 
-/*! @brief SD card detect flag  */
 static volatile bool s_cardInserted     = false;
 static volatile bool s_cardInsertStatus = false;
 static volatile	bool jsonCreated        = false;
 static volatile	bool jsonParsed         = false;
-/*! @brief Card semaphore  */
+
 static SemaphoreHandle_t s_fileAccessSemaphore = NULL;
 static SemaphoreHandle_t s_CardDetectSemaphore = NULL;
-static TaskHandle_t parseJSONTask_Handle = NULL;
-/*******************************************************************************
- * Code
- ******************************************************************************/
+
 static void SDCARD_DetectCallBack(bool isInserted, void *userData)
 {
     s_cardInsertStatus = isInserted;
@@ -109,8 +102,6 @@ static void CardDetectTask(void *pvParameters)
                     if (s_cardInserted)
                     {
                         PRINTF("\r\nCard inserted.\r\n");
-                       // jsonCreated = false;
-                       // jsonParsed	= false;
                         /* power on the card */
                         SD_SetCardPower(&g_sd, true);
                         /* make file system */
@@ -152,7 +143,7 @@ int main(void)
     }
 
     if (pdPASS != xTaskCreate(parseJSONTask, "parseJSONTask", ACCESSFILE_TASK_STACK_SIZE, NULL,
-                              ACCESSFILE_TASK_PRIORITY, &parseJSONTask_Handle))
+                              ACCESSFILE_TASK_PRIORITY, NULL))
     {
         return -1;
     }
@@ -210,7 +201,6 @@ static void saveJsonIntoFileTask(void *pvParameters)
     UINT bytesWritten   = 0U;
     FRESULT error;
     char *json_string;
-    UINT count = 0;
     while (1)
     {
     	if(jsonCreated == false){

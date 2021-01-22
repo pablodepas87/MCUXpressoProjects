@@ -8,17 +8,18 @@ char* createJson() {
     char  *json_string = NULL;
     cJSON *studente = cJSON_CreateObject();
     cJSON *nomeStudente =NULL;
+    cJSON *anni = NULL;
 
     nomeStudente = cJSON_CreateString("Fabio");
     /* Esempio usando cJSON_AddItemToObject che vuolr in ingresso l'oggetto , nome della chiave e l'elemento CJSON */
-    cJSON_AddItemToObject(studente,"nome",nomeStudente); 
+    cJSON_AddItemToObject(studente,"nome",nomeStudente);
     /* ora utilizzo cJSON_AddStringToObject che prende in ingresso oggetto, , stringa key , stringa valore */
     cJSON_AddStringToObject(studente,"cognome","Rapicano");
     /* ora aggiungo l'età che è un numero con cJSON_AddNumberToObject */
-    //cJSON_AddNumberToObject(studente,"anni",33) ;
+    cJSON_AddNumberToObject(studente,"anni",33);
 
-    return json_string = cJSON_Print(studente);
-
+    json_string = cJSON_Print(studente);
+    return json_string;
 }
 
 void parseJson( const char *json_string){
@@ -43,9 +44,9 @@ void parseJson( const char *json_string){
    if(cJSON_IsString(cognome_studente) && (cognome_studente->valuestring)){
         printf("cognome studente:%s\n",cognome_studente->valuestring);
    }
-  // eta_studente = cJSON_GetObjectItemCaseSensitive(all_Json,"anni");
-  // if(cJSON_IsNumber(eta_studente)){
-  //     printf("eta' studente:%d\n\n",eta_studente->valueint);
-  // }
+   eta_studente = cJSON_GetObjectItemCaseSensitive(all_Json,"anni");
+   if(cJSON_IsNumber(eta_studente)){
+       printf("eta' studente:%d\n\n",eta_studente->valueint);
+   }
 
 }
