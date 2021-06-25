@@ -1,0 +1,3 @@
+[submodule "littlevgl_guider_ms_demo"]
+	path = littlevgl_guider_ms_demo
+	url = ./littlevgl_guider_ms_demo

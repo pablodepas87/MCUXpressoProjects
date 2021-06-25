@@ -1,0 +1,7 @@
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Copyright 2020 NXP -->
+<directory>
+ <chips chipVendor='NXP' >
+  <chip name='MIMXRT1052xxxxB' xml_file='MIMXRT1052xxxxB_part.xml' />
+ </chips>
+</directory> 
