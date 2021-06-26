@@ -1,0 +1,2 @@
+custom.c:36:6:custom_init	16	static
+custom.c:41:6:send_event_return_to_home	24	static
