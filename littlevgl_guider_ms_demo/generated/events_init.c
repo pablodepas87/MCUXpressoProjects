@@ -23,6 +23,7 @@ static void splash_screen_event_handler(lv_obj_t * obj, lv_event_t event)
 			lv_bar_set_value(guider_ui.splash_screen_bar_1, bar_cur_value, LV_ANIM_OFF);
 		} else {
 			lv_obj_clean(lv_scr_act());
+			//setup_scr_page1_screen(&guider_ui);
 			setup_scr_homepage_screen(&guider_ui);
 			lv_scr_load(guider_ui.homepage_screen);
 
@@ -48,7 +49,6 @@ static void homepage_screen_event_handler(lv_obj_t * obj, lv_event_t event)
 	{
 	case LV_EVENT_PRESSED:
 	{
-		lv_obj_clean(lv_scr_act());
 
 		switch(page_number_to_go){
 		case 1:

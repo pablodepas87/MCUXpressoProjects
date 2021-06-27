@@ -43,6 +43,14 @@ typedef struct
 	lv_obj_t *homepage_screen_btn_9_label;
 	lv_obj_t *page1_screen;
 	lv_obj_t *page1_screen_title;
+	lv_obj_t *page1_screen_cont;
+	lv_obj_t *pag1_calendar_1;
+	lv_obj_t *pag1_cont_1;
+	lv_obj_t *page1_calendar;
+	lv_obj_t *pag1_page_title;
+	lv_obj_t *pag1_roller_minutes;
+	lv_obj_t *pag1_label_double_dot;
+	lv_obj_t *pag1_roller_hour;
 	lv_obj_t *page2_screen;
 	lv_obj_t *page2_screen_title;
 	lv_obj_t *page3_screen;

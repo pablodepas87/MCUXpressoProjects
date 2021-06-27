@@ -4,8 +4,8 @@ littlevgl/lvgl/src/lv_font/lv_font_montserrat_14.o \
  ../littlevgl/lvgl/src/lv_font/../../lvgl.h \
  ../littlevgl/lvgl/src/lv_font/../../src/lv_misc/lv_log.h \
  ../littlevgl/lvgl/src/lv_font/../../src/lv_misc/../lv_conf_internal.h \
- C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h \
- C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h \
+ C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h \
+ C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h \
  ../littlevgl/lvgl/src/lv_font/../../src/lv_misc/lv_task.h \
  ../littlevgl/lvgl/src/lv_font/../../src/lv_misc/lv_mem.h \
  ../littlevgl/lvgl/src/lv_font/../../src/lv_misc/lv_log.h \
@@ -166,9 +166,9 @@ littlevgl/lvgl/src/lv_font/lv_font_montserrat_14.o \
 
 ../littlevgl/lvgl/src/lv_font/../../src/lv_misc/../lv_conf_internal.h:
 
-C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h:
+C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h:
 
-C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h:
+C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h:
 
 ../littlevgl/lvgl/src/lv_font/../../src/lv_misc/lv_task.h:
 

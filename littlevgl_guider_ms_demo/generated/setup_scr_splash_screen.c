@@ -152,7 +152,7 @@ void setup_scr_splash_screen(lv_ui *ui){
 
 	//Init events for screen
 	events_init_splash_screen(ui);
-	lv_task_t *task = lv_task_create(go_to_homepage_cb_task, 50, LV_TASK_PRIO_HIGH, ui);
+	lv_task_t *task = lv_task_create(go_to_homepage_cb_task, 50, LV_TASK_PRIO_MID, ui);
 
 }
 
@@ -161,11 +161,10 @@ void go_to_homepage_cb_task(lv_task_t * task)
 
 	lv_ui * ui = task->user_data;
 
-	if (lv_bar_get_value(ui->splash_screen_bar_1) < 100 ) {
-		lv_event_send(ui->splash_screen_bar_1, LV_EVENT_VALUE_CHANGED, lv_bar_get_value(ui->splash_screen_bar_1)+1 );
-	} else {
+	lv_event_send(ui->splash_screen_bar_1, LV_EVENT_VALUE_CHANGED, lv_bar_get_value(ui->splash_screen_bar_1)+1 );
+	if(lv_bar_get_value(ui->splash_screen_bar_1) == 100)
 		lv_task_del(task);
-	}
+
 
 
 }

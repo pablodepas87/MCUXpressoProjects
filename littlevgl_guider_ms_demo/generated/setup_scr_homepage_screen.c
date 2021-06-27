@@ -85,7 +85,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_1, 200, 30);
 	lv_obj_set_size(ui->homepage_screen_btn_1, 80, 60);
 	ui->homepage_screen_btn_1_label = lv_label_create(ui->homepage_screen_btn_1, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_1_label, "PG1");
+	lv_label_set_text(ui->homepage_screen_btn_1_label, "DATA/ORA");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_1_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_1_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 
@@ -315,7 +315,7 @@ void timer_changepage(lv_task_t * task){
 
 
 	lv_event_send(ui->homepage_screen_bkg_obj, LV_EVENT_PRESSED, page_number );
-	//lv_task_del(task);
+	lv_task_del(task);
 }
 
 

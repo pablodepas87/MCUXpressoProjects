@@ -5,8 +5,8 @@ littlevgl/lvgl/src/lv_hal/lv_hal_disp.o \
  ../littlevgl/lvgl/src/lv_hal/lv_hal_disp.h \
  ../littlevgl/lvgl/src/lv_hal/../lv_misc/lv_color.h \
  ../littlevgl/lvgl/src/lv_hal/../lv_misc/../lv_conf_internal.h \
- C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h \
- C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h \
+ C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h \
+ C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h \
  ../littlevgl/lvgl/src/lv_hal/../lv_misc/lv_math.h \
  ../littlevgl/lvgl/src/lv_hal/../lv_misc/lv_area.h \
  ../littlevgl/lvgl/src/lv_hal/../lv_misc/lv_mem.h \
@@ -89,9 +89,9 @@ littlevgl/lvgl/src/lv_hal/lv_hal_disp.o \
 
 ../littlevgl/lvgl/src/lv_hal/../lv_misc/../lv_conf_internal.h:
 
-C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h:
+C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h:
 
-C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h:
+C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h:
 
 ../littlevgl/lvgl/src/lv_hal/../lv_misc/lv_math.h:
 
