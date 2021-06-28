@@ -11,4 +11,4 @@ lv_obj_style_dec.h:125:1:lv_style_set_bg_opa	16	static
 lv_obj_style_dec.h:160:1:lv_style_set_text_letter_space	16	static
 lv_obj_style_dec.h:164:1:lv_style_set_text_color	16	static
 lv_obj_style_dec.h:167:1:lv_style_set_text_font	24	static
-setup_scr_page2_screen.c:13:6:setup_scr_page2_screen	16	static
+setup_scr_page2_screen.c:13:6:setup_scr_page2_screen	24	static

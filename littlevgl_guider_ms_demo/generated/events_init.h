@@ -11,4 +11,5 @@
 void events_init(lv_ui *ui);
 void events_init_homepage_screen(lv_ui *ui);
 void events_init_retun_to_homepage(lv_ui *ui);
+void roller_event_init (lv_ui *ui);
 #endif /* EVENT_CB_H_ */

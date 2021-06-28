@@ -16,4 +16,6 @@ lv_obj_style_dec.h:164:1:lv_style_set_text_color	16	static
 lv_obj_style_dec.h:167:1:lv_obj_set_style_local_text_font	24	static
 lv_obj_style_dec.h:167:1:lv_style_set_text_font	24	static
 lv_cont.h:169:20:lv_cont_set_fit	24	static
-setup_scr_page1_screen.c:15:6:setup_scr_page1_screen	24	static
+setup_scr_page1_screen.c:20:6:setup_scr_page1_screen	24	static
+setup_scr_page1_screen.c:243:6:roller_task_callback	24	static
+setup_scr_page1_screen.c:251:6:return_to_home_task_callback	24	static

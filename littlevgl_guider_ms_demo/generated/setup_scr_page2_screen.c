@@ -41,4 +41,7 @@ void setup_scr_page2_screen(lv_ui *ui){
 	lv_obj_add_style(ui->page2_screen_title, LV_LABEL_PART_MAIN, &style_page2_screen_title_main);
 	lv_obj_set_pos(ui->page2_screen_title, 173, 36);
 	lv_obj_set_size(ui->page2_screen_title, 100, 0);
+
+	events_init_retun_to_homepage(ui);
+	lv_task_t *go_back_task = lv_task_create(send_event_return_to_home,1000, LV_TASK_PRIO_HIGH, ui);
 }

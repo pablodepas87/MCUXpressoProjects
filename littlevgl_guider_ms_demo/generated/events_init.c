@@ -128,6 +128,35 @@ void events_init_retun_to_homepage(lv_ui *ui) {
 
 }
 
+static void rollers_event_handler(lv_obj_t * obj, lv_event_t event){
+
+	lv_key_t *key = lv_event_get_data();
+	uint16_t roller_hour_ctn = lv_roller_get_option_cnt(guider_ui.pag1_roller_hour);
+	uint16_t roller_minute_ctn = lv_roller_get_option_cnt(guider_ui.pag1_roller_minutes);
+
+	switch ((uint8_t)key){
+	case LV_KEY_DOWN:
+		if (lv_roller_get_selected(guider_ui.pag1_roller_minutes) == roller_minute_ctn -1 ) {
+			lv_roller_set_selected(guider_ui.pag1_roller_minutes, 0, LV_ANIM_OFF);
+		} else {
+			lv_roller_set_selected(guider_ui.pag1_roller_minutes, lv_roller_get_selected(guider_ui.pag1_roller_minutes)+1, LV_ANIM_OFF);
+		}
+		break;
+	case LV_KEY_UP:
+		if (lv_roller_get_selected(guider_ui.pag1_roller_hour) == 0) {
+			lv_roller_set_selected(guider_ui.pag1_roller_hour, roller_hour_ctn -1, LV_ANIM_OFF);
+		} else {
+			lv_roller_set_selected(guider_ui.pag1_roller_hour, lv_roller_get_selected(guider_ui.pag1_roller_hour)-1, LV_ANIM_OFF);
+		}
+		break;
+	default: break;
+	}
+}
 
 
+void roller_event_init(lv_ui *ui)
+{
+	lv_obj_set_event_cb(guider_ui.pag1_roller_hour, rollers_event_handler);
+	lv_obj_set_event_cb(guider_ui.pag1_roller_minutes, rollers_event_handler);
+}
 

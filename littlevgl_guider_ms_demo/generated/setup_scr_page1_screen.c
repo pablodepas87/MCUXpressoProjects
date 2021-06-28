@@ -12,6 +12,11 @@
 static lv_calendar_date_t today;
 static lv_calendar_date_t highlihted_days[1];
 
+lv_task_t *roller_task;
+
+void roller_task_callback(lv_task_t *task);
+void return_to_home_task_callback(lv_task_t *task);
+
 void setup_scr_page1_screen(lv_ui *ui){
 
 	//Write codes page1_screen
@@ -226,8 +231,27 @@ void setup_scr_page1_screen(lv_ui *ui){
 	lv_obj_set_style_local_text_font(ui->pag1_roller_minutes, LV_ROLLER_PART_SELECTED, LV_STATE_DEFAULT, &lv_font_klavika_bold_16);
 	lv_roller_set_visible_row_count(ui->pag1_roller_minutes,5);
 
+	roller_event_init(ui);
+	roller_task = lv_task_create(roller_task_callback, 1500, LV_TASK_PRIO_LOW, ui);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *task = lv_task_create(send_event_return_to_home, 10000, LV_TASK_PRIO_MID, 1);
+	lv_task_t *go_back_task = lv_task_create(return_to_home_task_callback,2000, LV_TASK_PRIO_MID, ui);
+
+
+}
+
+void roller_task_callback(lv_task_t *task){
+
+	lv_ui *ui = task->user_data;
+
+	lv_event_send(ui->pag1_roller_hour, LV_EVENT_KEY, LV_KEY_UP);
+	lv_event_send(ui->pag1_roller_minutes, LV_EVENT_KEY, LV_KEY_DOWN);
+}
+
+void return_to_home_task_callback(lv_task_t *task){
+	lv_ui *ui = task->user_data;
+	lv_event_send(ui->page1_screen, LV_EVENT_LEAVE, NULL);
+	lv_task_del(roller_task);
+	lv_task_del(task);
 
 }
