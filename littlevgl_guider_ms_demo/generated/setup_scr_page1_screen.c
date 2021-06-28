@@ -235,7 +235,7 @@ void setup_scr_page1_screen(lv_ui *ui){
 	roller_task = lv_task_create(roller_task_callback, 1500, LV_TASK_PRIO_LOW, ui);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *go_back_task = lv_task_create(return_to_home_task_callback,2000, LV_TASK_PRIO_MID, ui);
+	lv_task_t *go_back_task = lv_task_create(return_to_home_task_callback,10000, LV_TASK_PRIO_MID, ui);
 
 
 }

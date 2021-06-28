@@ -111,7 +111,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_2, 290, 30);
 	lv_obj_set_size(ui->homepage_screen_btn_2, 80, 60);
 	ui->homepage_screen_btn_2_label = lv_label_create(ui->homepage_screen_btn_2, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_2_label, "PG2");
+	lv_label_set_text(ui->homepage_screen_btn_2_label, "KEYBOARD");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_2_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_2_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 
@@ -137,7 +137,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_3, 380, 30);
 	lv_obj_set_size(ui->homepage_screen_btn_3, 80, 60);
 	ui->homepage_screen_btn_3_label = lv_label_create(ui->homepage_screen_btn_3, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_3_label, "PG3");
+	lv_label_set_text(ui->homepage_screen_btn_3_label, "WIDGET\nVARI");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_3_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_3_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 
@@ -163,7 +163,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_4, 200, 100);
 	lv_obj_set_size(ui->homepage_screen_btn_4, 80, 60);
 	ui->homepage_screen_btn_4_label = lv_label_create(ui->homepage_screen_btn_4, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_4_label, "PG4");
+	lv_label_set_text(ui->homepage_screen_btn_4_label, "TABLE");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_4_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_4_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 
