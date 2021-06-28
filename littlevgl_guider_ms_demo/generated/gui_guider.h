@@ -69,7 +69,7 @@ typedef struct
 	lv_obj_t *page3_screen_label_2;
 	lv_obj_t *page3_screen_slider_1;
 	lv_obj_t *page4_screen;
-	lv_obj_t *page4_screen_title;
+	lv_obj_t *page4_screen_table_1;
 	lv_obj_t *page5_screen;
 	lv_obj_t *page5_screen_title;
 	lv_obj_t *page6_screen;
