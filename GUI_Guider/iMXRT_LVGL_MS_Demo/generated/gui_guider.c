@@ -9,6 +9,6 @@
 
 
 void setup_ui(lv_ui *ui){
-	setup_scr_page3_screen(ui);
-	lv_scr_load(ui->page3_screen);
+	setup_scr_page5_screen(ui);
+	lv_scr_load(ui->page5_screen);
 }

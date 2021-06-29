@@ -44,6 +44,89 @@
 	},
 	"FrontJson": [
 		{
+			"id": "page3_screen56",
+			"name": "page5_screen",
+			"list": [
+				{
+					"name": "led_1",
+					"type": "led",
+					"left": 29,
+					"top": 212,
+					"is_move_animation": true,
+					"desX": 240,
+					"desY": 30,
+					"path_type": "bounce",
+					"duration": 400,
+					"width": 40,
+					"height": 40,
+					"led_on_off": true,
+					"led_set_bright": 200,
+					"part": "LV_LED_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#00a1b5",
+					"bg_grad_color": "#00a1b5",
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"bg_opa": 255,
+					"border_width": 0,
+					"border_color": "#ffffff",
+					"border_opa": 255,
+					"radius": 20,
+					"shadow_color": "#00a1b5",
+					"shadow_width": 5,
+					"style": [
+						{
+							"part": "LV_LED_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#00a1b5",
+							"bg_grad_color": "#00a1b5",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"bg_opa": 255,
+							"border_width": 0,
+							"border_color": "#ffffff",
+							"border_opa": 255,
+							"radius": 20,
+							"shadow_color": "#00a1b5",
+							"shadow_width": 5
+						},
+						{
+							"part": "LV_LED_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#00a1b5",
+							"bg_grad_color": "#00a1b5",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_opa": 255,
+							"border_width": 0,
+							"border_color": "#ffffff",
+							"border_opa": 255,
+							"radius": 20,
+							"shadow_color": "#00a1b5",
+							"shadow_width": 0
+						},
+						{
+							"part": "LV_LED_PART_MAIN",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"bg_color": "#00a1b5",
+							"bg_grad_color": "#00a1b5",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_opa": 255,
+							"border_width": 0,
+							"border_color": "#ffffff",
+							"border_opa": 255,
+							"radius": 20,
+							"shadow_color": "#00a1b5",
+							"shadow_width": 0
+						}
+					],
+					"id": "z2syut8d",
+					"default_style": false
+				}
+			]
+		},
+		{
 			"id": "page1_sacreen34",
 			"name": "page3_screen",
 			"list": [
@@ -3094,84 +3177,6 @@
 			]
 		},
 		{
-			"id": "page3_screen56",
-			"name": "page5_screen",
-			"list": [
-				{
-					"name": "title",
-					"type": "label",
-					"left": 173,
-					"top": 36,
-					"is_move_animation": false,
-					"desX": 0,
-					"desY": 0,
-					"path_type": "linear",
-					"duration": 100,
-					"width": 100,
-					"height": 0,
-					"text": "SCREEN 5",
-					"text_align": "center",
-					"long_mode": "LV_LABEL_LONG_BREAK",
-					"part": "LV_LABEL_PART_MAIN",
-					"state": "LV_STATE_DEFAULT",
-					"disable": false,
-					"bg_color": "#ffffff",
-					"bg_grad_color": "#ffffff",
-					"bg_grad_dir": "LV_GRAD_DIR_VER",
-					"bg_opa": 255,
-					"text_color": "#000000",
-					"font": 12,
-					"font_family": "klavika_bold",
-					"letter_space": 2,
-					"radius": 0,
-					"paddingTop": 0,
-					"paddingRight": 0,
-					"paddingBottom": 0,
-					"paddingLeft": 0,
-					"style": [
-						{
-							"part": "LV_LABEL_PART_MAIN",
-							"state": "LV_STATE_DEFAULT",
-							"disable": false,
-							"radius": 0,
-							"text_color": "#000000",
-							"font": 12,
-							"font_family": "klavika_bold",
-							"letter_space": 2,
-							"bg_color": "#ffffff",
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"paddingTop": 0,
-							"paddingRight": 0,
-							"paddingBottom": 0,
-							"paddingLeft": 0
-						},
-						{
-							"part": "LV_LABEL_PART_MAIN",
-							"state": "LV_STATE_DISABLED",
-							"disable": true,
-							"radius": 0,
-							"text_color": "#000000",
-							"font": 12,
-							"font_family": "simsun",
-							"letter_space": 2,
-							"bg_color": "#ffffff",
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"paddingTop": 0,
-							"paddingRight": 0,
-							"paddingBottom": 0,
-							"paddingLeft": 0
-						}
-					],
-					"id": "gn3p51zw",
-					"default_style": false
-				}
-			]
-		},
-		{
 			"id": "page5_screen7",
 			"name": "page6_screen",
 			"list": [
@@ -3488,8 +3493,85 @@
 	"Application": {
 		"name": "testingJson",
 		"version": "test_v1",
-		"default_scr": "page3_screen",
+		"default_scr": "page5_screen",
 		"screen": [
+			{
+				"name": "page5_screen",
+				"type": "scr",
+				"widgets": [
+					{
+						"name": "page5_screen_led_1",
+						"type": "led",
+						"pos": [
+							29,
+							212
+						],
+						"size": [
+							40,
+							40
+						],
+						"is_move_animation": true,
+						"path_type": "bounce",
+						"move_animation": {
+							"des_pos": [
+								240,
+								30
+							],
+							"duration": 400
+						},
+						"default_style": false,
+						"led_on_off": true,
+						"led_set_bright": 200,
+						"style": [
+							{
+								"part": "LV_LED_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#00a1b5",
+								"bg_grad_color": "#00a1b5",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"bg_opa": 255,
+								"border_width": 0,
+								"border_color": "#ffffff",
+								"border_opa": 255,
+								"radius": 20,
+								"shadow_color": "#00a1b5",
+								"shadow_width": 5
+							},
+							{
+								"part": "LV_LED_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#00a1b5",
+								"bg_grad_color": "#00a1b5",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_opa": 255,
+								"border_width": 0,
+								"border_color": "#ffffff",
+								"border_opa": 255,
+								"radius": 20,
+								"shadow_color": "#00a1b5",
+								"shadow_width": 0
+							},
+							{
+								"part": "LV_LED_PART_MAIN",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"bg_color": "#00a1b5",
+								"bg_grad_color": "#00a1b5",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_opa": 255,
+								"border_width": 0,
+								"border_color": "#ffffff",
+								"border_opa": 255,
+								"radius": 20,
+								"shadow_color": "#00a1b5",
+								"shadow_width": 0
+							}
+						]
+					}
+				]
+			},
 			{
 				"name": "page3_screen",
 				"type": "scr",
@@ -6262,75 +6344,6 @@
 						},
 						"default_style": false,
 						"text": "SCREEN 4",
-						"long_mode": "LV_LABEL_LONG_BREAK",
-						"text_align": "center",
-						"style": [
-							{
-								"part": "LV_LABEL_PART_MAIN",
-								"state": "LV_STATE_DEFAULT",
-								"disable": false,
-								"radius": 0,
-								"text_color": "#000000",
-								"font": 12,
-								"font_family": "klavika_bold",
-								"letter_space": 2,
-								"bg_color": "#ffffff",
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"paddingTop": 0,
-								"paddingRight": 0,
-								"paddingBottom": 0,
-								"paddingLeft": 0
-							},
-							{
-								"part": "LV_LABEL_PART_MAIN",
-								"state": "LV_STATE_DISABLED",
-								"disable": true,
-								"radius": 0,
-								"text_color": "#000000",
-								"font": 12,
-								"font_family": "simsun",
-								"letter_space": 2,
-								"bg_color": "#ffffff",
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"paddingTop": 0,
-								"paddingRight": 0,
-								"paddingBottom": 0,
-								"paddingLeft": 0
-							}
-						]
-					}
-				]
-			},
-			{
-				"name": "page5_screen",
-				"type": "scr",
-				"widgets": [
-					{
-						"name": "page5_screen_title",
-						"type": "label",
-						"pos": [
-							173,
-							36
-						],
-						"size": [
-							100,
-							0
-						],
-						"is_move_animation": false,
-						"path_type": "linear",
-						"move_animation": {
-							"des_pos": [
-								0,
-								0
-							],
-							"duration": 100
-						},
-						"default_style": false,
-						"text": "SCREEN 5",
 						"long_mode": "LV_LABEL_LONG_BREAK",
 						"text_align": "center",
 						"style": [

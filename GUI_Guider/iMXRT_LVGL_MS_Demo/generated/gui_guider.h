@@ -14,6 +14,8 @@ extern "C" {
 
 typedef struct
 {
+	lv_obj_t *page5_screen;
+	lv_obj_t *page5_screen_led_1;
 	lv_obj_t *page3_screen;
 	lv_obj_t *page3_screen_cb_1;
 	lv_obj_t *page3_screen_sw_1;
@@ -60,8 +62,6 @@ typedef struct
 	lv_obj_t *page1_screen_title;
 	lv_obj_t *page4_screen;
 	lv_obj_t *page4_screen_title;
-	lv_obj_t *page5_screen;
-	lv_obj_t *page5_screen_title;
 	lv_obj_t *page6_screen;
 	lv_obj_t *page6_screen_title;
 	lv_obj_t *page7_screen;
@@ -74,13 +74,13 @@ typedef struct
 
 void setup_ui(lv_ui *ui);
 extern lv_ui guider_ui;
+void setup_scr_page5_screen(lv_ui *ui);
 void setup_scr_page3_screen(lv_ui *ui);
 void setup_scr_page2_screen(lv_ui *ui);
 void setup_scr_splash_screen(lv_ui *ui);
 void setup_scr_homepage_screen(lv_ui *ui);
 void setup_scr_page1_screen(lv_ui *ui);
 void setup_scr_page4_screen(lv_ui *ui);
-void setup_scr_page5_screen(lv_ui *ui);
 void setup_scr_page6_screen(lv_ui *ui);
 void setup_scr_page7_screen(lv_ui *ui);
 void setup_scr_page8_screen(lv_ui *ui);

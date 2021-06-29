@@ -3,8 +3,8 @@ littlevgl/lvgl/src/lv_widgets/lv_canvas.o \
  ../littlevgl/lvgl/src/lv_widgets/lv_canvas.c \
  ../littlevgl/lvgl/src/lv_widgets/lv_canvas.h \
  ../littlevgl/lvgl/src/lv_widgets/../lv_conf_internal.h \
- C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h \
- C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h \
+ C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h \
+ C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h \
  ../littlevgl/lvgl/src/lv_widgets/../lv_core/lv_obj.h \
  ../littlevgl/lvgl/src/lv_widgets/../lv_core/../lv_conf_internal.h \
  ../littlevgl/lvgl/src/lv_widgets/../lv_core/lv_style.h \
@@ -98,9 +98,9 @@ littlevgl/lvgl/src/lv_widgets/lv_canvas.o \
 
 ../littlevgl/lvgl/src/lv_widgets/../lv_conf_internal.h:
 
-C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h:
+C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\source/lv_conf.h:
 
-C:\Users\rappi\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h:
+C:\Users\rapicano\Documents\MCUXpressoProjects\littlevgl_guider_ms_demo\board/littlevgl_support.h:
 
 ../littlevgl/lvgl/src/lv_widgets/../lv_core/lv_obj.h:
 
