@@ -215,7 +215,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_6, 380, 100);
 	lv_obj_set_size(ui->homepage_screen_btn_6, 80, 60);
 	ui->homepage_screen_btn_6_label = lv_label_create(ui->homepage_screen_btn_6, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_6_label, "PG6");
+	lv_label_set_text(ui->homepage_screen_btn_6_label, "SLIDERS \n IMAGE ");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_6_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_6_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 

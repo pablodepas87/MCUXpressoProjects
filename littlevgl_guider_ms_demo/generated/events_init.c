@@ -26,7 +26,6 @@ static void splash_screen_event_handler(lv_obj_t * obj, lv_event_t event)
 			//setup_scr_page1_screen(&guider_ui);
 			setup_scr_homepage_screen(&guider_ui);
 			lv_scr_load(guider_ui.homepage_screen);
-
 		}
 	}
 		break;
@@ -104,11 +103,14 @@ void events_init_homepage_screen(lv_ui *ui)
 
 static void events_return_to_home_event_handler(lv_obj_t * obj, lv_event_t event){
 
+	lv_obj_t *current_screen;
 	switch (event){
 	case LV_EVENT_LEAVE:
-		lv_obj_clean(lv_scr_act());
+		current_screen = lv_scr_act();			// salvo il puntatore della pagina corrente per poi poterla eliminare
 		setup_scr_homepage_screen(&guider_ui);
 		lv_scr_load(guider_ui.homepage_screen);
+		lv_obj_del(current_screen);
+		lv_disp
 		break;
 	default: break;
 	}

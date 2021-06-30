@@ -2,10 +2,10 @@ lv_disp.h:159:26:lv_scr_act	8	static
 lv_disp.h:182:20:lv_scr_load	16	static
 events_init.c:10:6:events_init	16	static
 events_init.c:14:13:splash_screen_event_handler	24	static
-events_init.c:38:6:events_init_splash_screen	16	static
-events_init.c:43:13:homepage_screen_event_handler	24	static
-events_init.c:100:6:events_init_homepage_screen	16	static
-events_init.c:105:13:events_return_to_home_event_handler	16	static
-events_init.c:117:6:events_init_retun_to_homepage	16	static
-events_init.c:131:13:rollers_event_handler	32	static
-events_init.c:157:6:roller_event_init	16	static
+events_init.c:37:6:events_init_splash_screen	16	static
+events_init.c:42:13:homepage_screen_event_handler	24	static
+events_init.c:99:6:events_init_homepage_screen	16	static
+events_init.c:104:13:events_return_to_home_event_handler	24	static
+events_init.c:118:6:events_init_retun_to_homepage	16	static
+events_init.c:132:13:rollers_event_handler	32	static
+events_init.c:158:6:roller_event_init	16	static
