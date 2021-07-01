@@ -241,7 +241,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_7, 200, 170);
 	lv_obj_set_size(ui->homepage_screen_btn_7, 80, 60);
 	ui->homepage_screen_btn_7_label = lv_label_create(ui->homepage_screen_btn_7, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_7_label, "PG7");
+	lv_label_set_text(ui->homepage_screen_btn_7_label, "LINE-METER");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_7_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_7_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 
@@ -267,7 +267,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_8, 290, 170);
 	lv_obj_set_size(ui->homepage_screen_btn_8, 80, 60);
 	ui->homepage_screen_btn_8_label = lv_label_create(ui->homepage_screen_btn_8, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_8_label, "PG8");
+	lv_label_set_text(ui->homepage_screen_btn_8_label, "GAUGES");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_8_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_8_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 
@@ -293,7 +293,7 @@ void setup_scr_homepage_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->homepage_screen_btn_9, 380, 170);
 	lv_obj_set_size(ui->homepage_screen_btn_9, 80, 60);
 	ui->homepage_screen_btn_9_label = lv_label_create(ui->homepage_screen_btn_9, NULL);
-	lv_label_set_text(ui->homepage_screen_btn_9_label, "PG9");
+	lv_label_set_text(ui->homepage_screen_btn_9_label, "CHART");
 	lv_obj_set_style_local_text_color(ui->homepage_screen_btn_9_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->homepage_screen_btn_9_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_klavika_bold_12);
 

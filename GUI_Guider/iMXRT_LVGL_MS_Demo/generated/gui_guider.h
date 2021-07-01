@@ -15,7 +15,9 @@ extern "C" {
 typedef struct
 {
 	lv_obj_t *page5_screen;
-	lv_obj_t *page5_screen_led_1;
+	lv_obj_t *page5_screen_lmeter_1;
+	lv_obj_t *page5_screen_label_1;
+	lv_obj_t *page5_screen_arc_1;
 	lv_obj_t *page3_screen;
 	lv_obj_t *page3_screen_cb_1;
 	lv_obj_t *page3_screen_sw_1;

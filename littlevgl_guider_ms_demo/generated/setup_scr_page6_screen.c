@@ -17,6 +17,7 @@ static void go_home_callb(lv_task_t *task);
 static lv_obj_t * red_slider, * green_slider, * blue_slider, * intense_slider;
 static lv_obj_t * img_logo_micro;
 static lv_group_t *g;
+static lv_task_t *scroll_task;
 
 void setup_scr_page6_screen(lv_ui *ui){
 
@@ -103,7 +104,7 @@ void setup_scr_page6_screen(lv_ui *ui){
 	lv_group_add_obj(g, blue_slider);
 	lv_group_add_obj(g, intense_slider);
 
-	//lv_task_t *scroll_task = lv_task_create(sliders_change_value_task,50,LV_TASK_PRIO_HIGH,ui);
+	scroll_task = lv_task_create(sliders_change_value_task,50,LV_TASK_PRIO_HIGH,ui);
 
 	events_init_retun_to_homepage(ui);
 	lv_task_t *go_back_task = lv_task_create(go_home_callb,20000, LV_TASK_PRIO_HIGH, ui);
@@ -176,5 +177,6 @@ void go_home_callb(lv_task_t *task)
 {
 	lv_ui *ui = task->user_data;
 	lv_event_send(ui->page6_screen, LV_EVENT_LEAVE, NULL);
+	lv_task_del(scroll_task);
 	lv_task_del(task);
 }

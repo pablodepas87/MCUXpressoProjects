@@ -110,7 +110,6 @@ static void events_return_to_home_event_handler(lv_obj_t * obj, lv_event_t event
 		setup_scr_homepage_screen(&guider_ui);
 		lv_scr_load(guider_ui.homepage_screen);
 		lv_obj_del(current_screen);
-		lv_disp
 		break;
 	default: break;
 	}

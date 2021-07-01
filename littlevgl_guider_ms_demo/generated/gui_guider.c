@@ -9,7 +9,7 @@
 
 
 void setup_ui(lv_ui *ui){
-	setup_scr_splash_screen(ui);
-	//setup_scr_page6_screen(ui);
-	lv_scr_load(ui->splash_screen);
+	//setup_scr_splash_screen(ui);
+	setup_scr_page7_screen(ui);
+	lv_scr_load(ui->page7_screen);
 }

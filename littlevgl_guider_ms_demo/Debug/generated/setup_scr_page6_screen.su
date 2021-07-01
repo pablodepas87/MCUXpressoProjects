@@ -20,8 +20,8 @@ lv_obj_style_dec.h:178:1:lv_obj_set_style_local_image_recolor_opa	16	static
 lv_cont.h:169:20:lv_cont_set_fit	24	static
 lv_slider.h:83:20:lv_slider_set_value	16	static
 lv_slider.h:105:20:lv_slider_set_range	16	static
-setup_scr_page6_screen.c:21:6:setup_scr_page6_screen	48	static
-setup_scr_page6_screen.c:112:13:slider_event_cb	32	static
-setup_scr_page6_screen.c:123:19:create_slider	24	static
-setup_scr_page6_screen.c:135:6:sliders_change_value_task	24	static
-setup_scr_page6_screen.c:175:6:go_home_callb	24	static
+setup_scr_page6_screen.c:22:6:setup_scr_page6_screen	48	static
+setup_scr_page6_screen.c:113:13:slider_event_cb	32	static
+setup_scr_page6_screen.c:124:19:create_slider	24	static
+setup_scr_page6_screen.c:136:6:sliders_change_value_task	24	static
+setup_scr_page6_screen.c:176:6:go_home_callb	24	static

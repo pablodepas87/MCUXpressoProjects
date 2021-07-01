@@ -75,6 +75,7 @@ typedef struct
 	lv_obj_t *page6_screen;
 	lv_obj_t *page6_screen_title;
 	lv_obj_t *page7_screen;
+	lv_obj_t *page7_screen_label_1;
 	lv_obj_t *page7_screen_title;
 	lv_obj_t *page8_screen;
 	lv_obj_t *page8_screen_title;
