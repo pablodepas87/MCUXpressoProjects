@@ -154,9 +154,9 @@ void increase_line_meter_cb(lv_task_t *task)
 void go_home_callb(lv_task_t *task)
 {
 	lv_ui *ui = task->user_data;
-	lv_event_send(ui->page7_screen, LV_EVENT_LEAVE, NULL);
 	lv_task_del(increase_line_meter_value);
 	lv_task_del(task);
+	lv_event_send(ui->page7_screen, LV_EVENT_LEAVE, NULL);
 }
 
 static void arc_loader(lv_task_t * t)

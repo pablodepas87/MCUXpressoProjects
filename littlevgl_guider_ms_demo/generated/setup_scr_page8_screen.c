@@ -132,7 +132,8 @@ void increase_gauge_values_event_cb(lv_obj_t * obj, lv_event_t event)
 void go_to_homepage_callb(lv_task_t *task)
 {
 	lv_ui *ui = task->user_data;
-	lv_event_send(ui->page8_screen, LV_EVENT_LEAVE, NULL);
+
 	lv_task_del(increase_gauges_value_task);
 	lv_task_del(task);
+	lv_event_send(ui->page8_screen, LV_EVENT_LEAVE, NULL);
 }

@@ -23,4 +23,4 @@ lv_obj_style_dec.h:203:20:lv_obj_set_style_local_pad_all	16	static
 lv_cont.h:169:20:lv_cont_set_fit	24	static
 setup_scr_page4_screen.c:17:6:setup_scr_page4_screen	40	static
 setup_scr_page4_screen.c:182:6:return_to_home_callb	24	static
-setup_scr_page4_screen.c:188:6:scroll_task_cb	16	static
+setup_scr_page4_screen.c:189:6:scroll_task_cb	16	static

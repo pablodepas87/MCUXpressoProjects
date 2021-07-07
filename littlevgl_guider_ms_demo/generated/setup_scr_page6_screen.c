@@ -104,7 +104,7 @@ void setup_scr_page6_screen(lv_ui *ui){
 	lv_group_add_obj(g, blue_slider);
 	lv_group_add_obj(g, intense_slider);
 
-	scroll_task = lv_task_create(sliders_change_value_task,50,LV_TASK_PRIO_HIGH,ui);
+	scroll_task = lv_task_create(sliders_change_value_task,100,LV_TASK_PRIO_HIGH,ui);
 
 	events_init_retun_to_homepage(ui);
 	lv_task_t *go_back_task = lv_task_create(go_home_callb,30000, LV_TASK_PRIO_HIGH, ui);
@@ -176,7 +176,12 @@ void sliders_change_value_task(lv_task_t *task)
 void go_home_callb(lv_task_t *task)
 {
 	lv_ui *ui = task->user_data;
-	lv_event_send(ui->page6_screen, LV_EVENT_LEAVE, NULL);
 	lv_task_del(scroll_task);
+	lv_obj_del(intense_slider);
+	lv_obj_del(red_slider);
+	lv_obj_del(blue_slider);
+	lv_obj_del(green_slider);
+
 	lv_task_del(task);
+	lv_event_send(ui->page6_screen, LV_EVENT_LEAVE, NULL);
 }

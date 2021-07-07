@@ -515,7 +515,8 @@ void change_obj_value_cb(lv_task_t *task)
 
 void return_to_home_cb(lv_task_t *task){
 	lv_ui *ui = task->user_data;
-	lv_event_send(ui->page3_screen, LV_EVENT_LEAVE, NULL);
+
 	lv_task_del(task);
+	lv_event_send(ui->page3_screen, LV_EVENT_LEAVE, NULL);
 
 }

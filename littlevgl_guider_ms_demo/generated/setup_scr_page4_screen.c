@@ -175,14 +175,15 @@ void setup_scr_page4_screen(lv_ui *ui){
 	lv_task_t *scroll_task = lv_task_create(scroll_task_cb,1500,LV_TASK_PRIO_HIGH,ui);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *go_back_task = lv_task_create(return_to_home_callb,30000, LV_TASK_PRIO_HIGH, ui);
+	lv_task_t *go_back_task = lv_task_create(return_to_home_callb,10000, LV_TASK_PRIO_HIGH, ui);
 
 }
 
 void return_to_home_callb(lv_task_t *task){
 	lv_ui *ui = task->user_data;
-	lv_event_send(ui->page4_screen, LV_EVENT_LEAVE, NULL);
 	lv_task_del(task);
+	lv_event_send(ui->page4_screen, LV_EVENT_LEAVE, NULL);
+
 }
 
 void scroll_task_cb(lv_task_t *task){

@@ -250,8 +250,9 @@ void roller_task_callback(lv_task_t *task){
 
 void return_to_home_task_callback(lv_task_t *task){
 	lv_ui *ui = task->user_data;
-	lv_event_send(ui->page1_screen, LV_EVENT_LEAVE, NULL);
+
 	lv_task_del(roller_task);
 	lv_task_del(task);
+	lv_event_send(ui->page1_screen, LV_EVENT_LEAVE, NULL);
 
 }
