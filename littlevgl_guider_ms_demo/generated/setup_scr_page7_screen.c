@@ -131,7 +131,7 @@ void setup_scr_page7_screen(lv_ui *ui){
 	lv_obj_align(preload, NULL, LV_ALIGN_IN_RIGHT_MID, -20, 0);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *go_back_task = lv_task_create(go_home_callb,20000, LV_TASK_PRIO_HIGH, ui);
+	lv_task_t *go_back_task = lv_task_create(go_home_callb,30000, LV_TASK_PRIO_HIGH, ui);
 }
 
 static void line_meter_event_cb(lv_event_t * e)

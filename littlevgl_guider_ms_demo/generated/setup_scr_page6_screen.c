@@ -107,7 +107,7 @@ void setup_scr_page6_screen(lv_ui *ui){
 	scroll_task = lv_task_create(sliders_change_value_task,50,LV_TASK_PRIO_HIGH,ui);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *go_back_task = lv_task_create(go_home_callb,20000, LV_TASK_PRIO_HIGH, ui);
+	lv_task_t *go_back_task = lv_task_create(go_home_callb,30000, LV_TASK_PRIO_HIGH, ui);
 }
 
 static void slider_event_cb(lv_event_t * e)

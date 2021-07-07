@@ -162,7 +162,7 @@ void setup_scr_page2_screen(lv_ui *ui){
 	lv_task_t *send_char_to_textarea = (send_char_cb,LV_TASK_PRIO_HIGH,ui);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *go_back_task = lv_task_create(return_to_home_callback,10000, LV_TASK_PRIO_HIGH, ui);
+	lv_task_t *go_back_task = lv_task_create(return_to_home_callback,30000, LV_TASK_PRIO_HIGH, ui);
 
 }
 

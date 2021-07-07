@@ -25,7 +25,8 @@ static void splash_screen_event_handler(lv_obj_t * obj, lv_event_t event)
 			lv_obj_clean(lv_scr_act());
 			//setup_scr_page1_screen(&guider_ui);
 			setup_scr_homepage_screen(&guider_ui);
-			lv_scr_load(guider_ui.homepage_screen);
+			lv_scr_load_anim(guider_ui.homepage_screen, LV_SCR_LOAD_ANIM_FADE_ON, 1000, 0, 0);
+			//lv_scr_load(guider_ui.homepage_screen);
 		}
 	}
 		break;
@@ -52,39 +53,48 @@ static void homepage_screen_event_handler(lv_obj_t * obj, lv_event_t event)
 		switch(page_number_to_go){
 		case 1:
 			setup_scr_page1_screen(&guider_ui);
-			lv_scr_load(guider_ui.page1_screen);
+			lv_scr_load_anim(guider_ui.page1_screen, LV_SCR_LOAD_ANIM_FADE_ON, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page1_screen);
 			break;
 		case 2:
 			setup_scr_page2_screen(&guider_ui);
-			lv_scr_load(guider_ui.page2_screen);
+			lv_scr_load_anim(guider_ui.page2_screen, LV_SCR_LOAD_ANIM_OVER_BOTTOM, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page2_screen);
 			break;
 		case 3:
 			setup_scr_page3_screen(&guider_ui);
-			lv_scr_load(guider_ui.page3_screen);
+			lv_scr_load_anim(guider_ui.page3_screen, LV_SCR_LOAD_ANIM_OVER_TOP, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page3_screen);
 			break;
 		case 4:
 			setup_scr_page4_screen(&guider_ui);
-			lv_scr_load(guider_ui.page4_screen);
+			lv_scr_load_anim(guider_ui.page4_screen, LV_SCR_LOAD_ANIM_OVER_RIGHT, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page4_screen);
 			break;
 		case 5:
 			setup_scr_page5_screen(&guider_ui);
-			lv_scr_load(guider_ui.page5_screen);
+			lv_scr_load_anim(guider_ui.page5_screen, LV_SCR_LOAD_ANIM_MOVE_RIGHT, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page5_screen);
 			break;
 		case 6:
 			setup_scr_page6_screen(&guider_ui);
-			lv_scr_load(guider_ui.page6_screen);
+			lv_scr_load_anim(guider_ui.page6_screen, LV_SCR_LOAD_ANIM_MOVE_LEFT, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page6_screen);
 			break;
 		case 7:
 			setup_scr_page7_screen(&guider_ui);
-			lv_scr_load(guider_ui.page7_screen);
+			lv_scr_load_anim(guider_ui.page7_screen, LV_SCR_LOAD_ANIM_MOVE_TOP, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page7_screen);
 			break;
 		case 8:
 			setup_scr_page8_screen(&guider_ui);
-			lv_scr_load(guider_ui.page8_screen);
+			lv_scr_load_anim(guider_ui.page8_screen, LV_SCR_LOAD_ANIM_MOVE_BOTTOM, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page8_screen);
 			break;
 		case 9:
 			setup_scr_page9_screen(&guider_ui);
-			lv_scr_load(guider_ui.page9_screen);
+			lv_scr_load_anim(guider_ui.page9_screen, LV_SCR_LOAD_ANIM_OVER_LEFT, 1000, 0, 0);
+			//lv_scr_load(guider_ui.page9_screen);
 			break;
 		default: break;
 

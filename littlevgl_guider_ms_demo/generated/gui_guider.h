@@ -80,7 +80,10 @@ typedef struct
 	lv_obj_t *page8_screen;
 	lv_obj_t *page8_screen_title;
 	lv_obj_t *page9_screen;
-	lv_obj_t *page9_screen_title;
+	lv_obj_t *page9_screen_chart_tabview;
+	lv_obj_t *page9_screen_chart_tabview_title1;
+	lv_obj_t *page9_screen_chart_tabview_title2;
+	lv_obj_t *page9_screen_chart_tabview_title3;
 }lv_ui;
 
 void setup_ui(lv_ui *ui);

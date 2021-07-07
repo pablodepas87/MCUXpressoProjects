@@ -494,7 +494,7 @@ void setup_scr_page3_screen(lv_ui *ui){
 	lv_obj_set_pos(ui->page3_screen_cb_4, 9, 171);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *go_back_task = lv_task_create(return_to_home_cb,10000, LV_TASK_PRIO_HIGH, ui);
+	lv_task_t *go_back_task = lv_task_create(return_to_home_cb,30000, LV_TASK_PRIO_HIGH, ui);
 	lv_task_t *set_obj_value = lv_task_create(change_obj_value_cb,1000,LV_TASK_PRIO_HIGH,ui);
 
 }

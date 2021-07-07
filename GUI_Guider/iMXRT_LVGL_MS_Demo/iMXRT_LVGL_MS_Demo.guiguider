@@ -48,24 +48,129 @@
 			"name": "page5_screen",
 			"list": [
 				{
-					"name": "lmeter_1",
-					"type": "lmeter",
-					"left": 27,
-					"top": 100,
+					"name": "chart_tabview",
+					"type": "tabview",
+					"left": 0,
+					"top": 20,
 					"is_move_animation": false,
 					"desX": 0,
 					"desY": 0,
 					"path_type": "linear",
 					"duration": 100,
-					"width": 120,
-					"height": 120,
-					"value_min": 0,
-					"value_max": 180,
-					"value": 100,
-					"line_num": 35,
-					"angle": 300,
-					"offset": 0,
-					"part": "LV_LINEMETER_PART_MAIN",
+					"width": 480,
+					"height": 253,
+					"content": [
+						{
+							"title": "title1",
+							"title_text": "con1"
+						},
+						{
+							"title": "title2",
+							"title_text": "con2"
+						},
+						{
+							"title": "title3",
+							"title_text": "con3"
+						}
+					],
+					"anim_time": 1000,
+					"hasChild": true,
+					"part": "LV_TABVIEW_PART_TAB_BTN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"paddingTop": 0,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"bg_grad_dir": "LV_GRAD_DIR_VER",
+					"font": 24,
+					"font_family": "simsun",
+					"text_color": "#042fc8",
+					"bg_color": "#c8de00",
+					"bg_grad_color": "#c8de00",
+					"bg_opa": 255,
+					"border_width": 0,
+					"border_color": "#c0c0c0",
+					"letter_space": 0,
+					"line_space": 16,
+					"style": [
+						{
+							"part": "LV_TABVIEW_PART_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#eaeff3",
+							"bg_grad_color": "#eaeff3",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"text_color": "#808080",
+							"font_family": "simsun",
+							"font": 24,
+							"letter_space": 2,
+							"line_space": 16,
+							"border_color": "#c0c0c0",
+							"border_width": 0
+						},
+						{
+							"part": "LV_TABVIEW_PART_INDIC",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#c8de00",
+							"bg_grad_color": "#c8de00",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER"
+						},
+						{
+							"part": "LV_TABVIEW_PART_TAB_BG",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#c8de00",
+							"bg_grad_color": "#c8de00",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"border_color": "#c0c0c0",
+							"border_width": 0,
+							"paddingTop": 0,
+							"paddingRight": 0,
+							"paddingBottom": 0,
+							"paddingLeft": 0
+						},
+						{
+							"part": "LV_TABVIEW_PART_TAB_BTN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"text_color": "#042fc8",
+							"letter_space": 0
+						},
+						{
+							"part": "LV_TABVIEW_PART_TAB_BTN",
+							"state": "LV_STATE_CHECKED",
+							"disable": true,
+							"text_color": "#4d4d4d",
+							"letter_space": 0
+						}
+					],
+					"id": "pez3aloy",
+					"default_style": false
+				},
+				{
+					"name": "chart_1",
+					"type": "chart",
+					"left": 122,
+					"top": 98,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 205,
+					"height": 155,
+					"range": 100,
+					"row": 3,
+					"col": 5,
+					"point_count": 5,
+					"chart_type": "LV_CHART_TYPE_LINE",
+					"chart_data": [],
+					"part": "LV_CHART_PART_BG",
 					"state": "LV_STATE_DEFAULT",
 					"disable": false,
 					"padding_top": 5,
@@ -73,246 +178,48 @@
 					"padding_left": 5,
 					"padding_right": 5,
 					"bg_color": "#ffffff",
-					"line_color": "#c8de00",
-					"scale_grad_color": "#8f9394",
-					"scale_end_color": "#8b898b",
-					"radius": 1,
-					"bg_grad_color": "#ffffff",
-					"bg_opa": 255,
-					"bg_grad_dir": "LV_GRAD_DIR_VER",
-					"line_width": 4,
-					"line_opa": 255,
-					"scale_end_line_width": 4,
-					"scale_width": 16,
-					"style": [
-						{
-							"part": "LV_LINEMETER_PART_MAIN",
-							"state": "LV_STATE_DEFAULT",
-							"disable": false,
-							"padding_top": 5,
-							"padding_bottom": 5,
-							"padding_left": 5,
-							"padding_right": 5,
-							"bg_color": "#ffffff",
-							"line_color": "#c8de00",
-							"scale_grad_color": "#8f9394",
-							"scale_end_color": "#8b898b",
-							"radius": 1,
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"line_width": 4,
-							"line_opa": 255,
-							"scale_end_line_width": 4,
-							"scale_width": 16
-						},
-						{
-							"part": "LV_LINEMETER_PART_MAIN",
-							"state": "LV_STATE_FOCUSED",
-							"disable": true,
-							"padding_top": 5,
-							"padding_bottom": 5,
-							"padding_left": 5,
-							"padding_right": 5,
-							"bg_color": "#ffffff",
-							"line_color": "#00a1b5",
-							"scale_grad_color": "#00a1b5",
-							"scale_end_color": "#8b898b",
-							"radius": 1,
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"line_width": 4,
-							"line_opa": 255,
-							"scale_end_line_width": 4,
-							"scale_width": 10
-						},
-						{
-							"part": "LV_LINEMETER_PART_MAIN",
-							"state": "LV_STATE_DISABLED",
-							"disable": true,
-							"padding_top": 5,
-							"padding_bottom": 5,
-							"padding_left": 5,
-							"padding_right": 5,
-							"bg_color": "#ffffff",
-							"line_color": "#00a1b5",
-							"scale_grad_color": "#00a1b5",
-							"scale_end_color": "#8b898b",
-							"radius": 1,
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"line_width": 4,
-							"line_opa": 255,
-							"scale_end_line_width": 4,
-							"scale_width": 10
-						}
-					],
-					"id": "3wad30wv",
-					"default_style": false
-				},
-				{
-					"name": "label_1",
-					"type": "label",
-					"left": 61,
-					"top": 151,
-					"is_move_animation": false,
-					"desX": 0,
-					"desY": 0,
-					"path_type": "linear",
-					"duration": 100,
-					"width": 50,
-					"height": 0,
-					"text": "20",
-					"text_align": "center",
-					"long_mode": "LV_LABEL_LONG_BREAK",
-					"part": "LV_LABEL_PART_MAIN",
-					"state": "LV_STATE_DEFAULT",
-					"disable": false,
-					"bg_color": "#ffffff",
 					"bg_grad_color": "#ffffff",
 					"bg_grad_dir": "LV_GRAD_DIR_VER",
 					"bg_opa": 255,
-					"text_color": "#000000",
-					"font": "16",
-					"font_family": "simsun",
-					"letter_space": 2,
-					"radius": 0,
-					"paddingTop": 0,
-					"paddingRight": 0,
-					"paddingBottom": 0,
-					"paddingLeft": 0,
-					"style": [
-						{
-							"part": "LV_LABEL_PART_MAIN",
-							"state": "LV_STATE_DEFAULT",
-							"disable": false,
-							"radius": 0,
-							"text_color": "#000000",
-							"font": "16",
-							"font_family": "simsun",
-							"letter_space": 2,
-							"bg_color": "#ffffff",
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"paddingTop": 0,
-							"paddingRight": 0,
-							"paddingBottom": 0,
-							"paddingLeft": 0
-						},
-						{
-							"part": "LV_LABEL_PART_MAIN",
-							"state": "LV_STATE_DISABLED",
-							"disable": true,
-							"radius": 0,
-							"text_color": "#000000",
-							"font": 12,
-							"font_family": "simsun",
-							"letter_space": 2,
-							"bg_color": "#ffffff",
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"paddingTop": 0,
-							"paddingRight": 0,
-							"paddingBottom": 0,
-							"paddingLeft": 0
-						}
-					],
-					"id": "kbvbxhk8",
-					"default_style": false
-				},
-				{
-					"name": "arc_1",
-					"type": "arc",
-					"left": 207,
-					"top": 101,
-					"is_move_animation": false,
-					"desX": 0,
-					"desY": 0,
-					"path_type": "linear",
-					"duration": 100,
-					"width": 100,
-					"height": 100,
-					"angle_start": 0,
-					"angle_end": 360,
-					"bg_angle_start": 0,
-					"bg_angle_end": 360,
-					"rotate": 0,
-					"line_cap": "butt",
-					"padding_t": 5,
-					"padding_b": 5,
-					"padding_l": 5,
-					"padding_r": 5,
-					"adjustable": false,
-					"part": "LV_ARC_PART_BG",
-					"state": "LV_STATE_DEFAULT",
-					"disable": false,
-					"line_color": "#d4d7d9",
-					"line_width": 16,
-					"bg_color": "#ffffff",
-					"bg_grad_color": "#ffffff",
-					"bg_grad_dir": "LV_GRAD_DIR_VER",
 					"border_width": 0,
-					"bg_opa": 255,
+					"border_color": "#ffffff",
+					"line_color": "#e8e8e8",
+					"line_width": 2,
+					"line_opa": 255,
 					"style": [
 						{
-							"part": "LV_ARC_PART_BG",
+							"part": "LV_CHART_PART_BG",
 							"state": "LV_STATE_DEFAULT",
 							"disable": false,
+							"padding_top": 5,
+							"padding_bottom": 5,
+							"padding_left": 5,
+							"padding_right": 5,
 							"bg_color": "#ffffff",
 							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
 							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"border_width": 0,
-							"line_color": "#d4d7d9",
-							"line_width": 16
+							"bg_opa": 255
 						},
 						{
-							"part": "LV_ARC_PART_BG",
-							"state": "LV_STATE_FOCUSED",
-							"disable": true,
-							"bg_color": "#ffffff",
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"border_width": 0,
-							"line_color": "#d4d7d9"
-						},
-						{
-							"part": "LV_ARC_PART_BG",
-							"state": "LV_STATE_DISABLED",
-							"disable": true,
-							"bg_color": "#ffffff",
-							"bg_grad_color": "#ffffff",
-							"bg_opa": 255,
-							"bg_grad_dir": "LV_GRAD_DIR_VER",
-							"border_width": 0,
-							"line_color": "#d4d7d9"
-						},
-						{
-							"part": "LV_ARC_PART_INDIC",
+							"part": "LV_CHART_PART_SERIES_BG",
 							"state": "LV_STATE_DEFAULT",
 							"disable": false,
-							"line_color": "#01a2b1",
-							"line_width": 16
+							"line_color": "#e8e8e8",
+							"line_width": 2,
+							"line_opa": 255
 						},
 						{
-							"part": "LV_ARC_PART_INDIC",
+							"part": "LV_CHART_PART_BG",
 							"state": "LV_STATE_FOCUSED",
 							"disable": true,
-							"line_color": "#01a2b1"
-						},
-						{
-							"part": "LV_ARC_PART_INDIC",
-							"state": "LV_STATE_DISABLED",
-							"disable": true,
-							"line_color": "#01a2b1"
+							"border_width": 0,
+							"border_color": "#ffffff"
 						}
 					],
-					"id": "mjt6x2hh",
+					"tabIndex": "2",
+					"parentName": "chart_tabview",
+					"parentId": "pez3aloy",
+					"id": "8715vf1c",
 					"default_style": false
 				}
 			]
@@ -3691,15 +3598,15 @@
 				"type": "scr",
 				"widgets": [
 					{
-						"name": "page5_screen_lmeter_1",
-						"type": "lmeter",
+						"name": "page5_screen_chart_tabview",
+						"type": "tabview",
 						"pos": [
-							27,
-							100
+							0,
+							20
 						],
 						"size": [
-							120,
-							120
+							480,
+							253
 						],
 						"is_move_animation": false,
 						"path_type": "linear",
@@ -3711,231 +3618,152 @@
 							"duration": 100
 						},
 						"default_style": false,
-						"value_min": 0,
-						"value_max": 180,
-						"value": 100,
-						"line_num": 35,
-						"angle": 300,
-						"offset": 0,
-						"bg_color": "#ffffff",
+						"title": [
+							"title1",
+							"title2",
+							"title3"
+						],
+						"title_text": [
+							"con1",
+							"con2",
+							"con3"
+						],
+						"anim_time": 1000,
 						"style": [
 							{
-								"part": "LV_LINEMETER_PART_MAIN",
+								"part": "LV_TABVIEW_PART_BG",
 								"state": "LV_STATE_DEFAULT",
 								"disable": false,
-								"padding_top": 5,
-								"padding_bottom": 5,
-								"padding_left": 5,
-								"padding_right": 5,
-								"bg_color": "#ffffff",
-								"line_color": "#c8de00",
-								"scale_grad_color": "#8f9394",
-								"scale_end_color": "#8b898b",
-								"radius": 1,
-								"bg_grad_color": "#ffffff",
+								"bg_color": "#eaeff3",
+								"bg_grad_color": "#eaeff3",
 								"bg_opa": 255,
 								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"line_width": 4,
-								"line_opa": 255,
-								"scale_end_line_width": 4,
-								"scale_width": 16
-							},
-							{
-								"part": "LV_LINEMETER_PART_MAIN",
-								"state": "LV_STATE_FOCUSED",
-								"disable": true,
-								"padding_top": 5,
-								"padding_bottom": 5,
-								"padding_left": 5,
-								"padding_right": 5,
-								"bg_color": "#ffffff",
-								"line_color": "#00a1b5",
-								"scale_grad_color": "#00a1b5",
-								"scale_end_color": "#8b898b",
-								"radius": 1,
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"line_width": 4,
-								"line_opa": 255,
-								"scale_end_line_width": 4,
-								"scale_width": 10
-							},
-							{
-								"part": "LV_LINEMETER_PART_MAIN",
-								"state": "LV_STATE_DISABLED",
-								"disable": true,
-								"padding_top": 5,
-								"padding_bottom": 5,
-								"padding_left": 5,
-								"padding_right": 5,
-								"bg_color": "#ffffff",
-								"line_color": "#00a1b5",
-								"scale_grad_color": "#00a1b5",
-								"scale_end_color": "#8b898b",
-								"radius": 1,
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"line_width": 4,
-								"line_opa": 255,
-								"scale_end_line_width": 4,
-								"scale_width": 10
-							}
-						]
-					},
-					{
-						"name": "page5_screen_label_1",
-						"type": "label",
-						"pos": [
-							61,
-							151
-						],
-						"size": [
-							50,
-							0
-						],
-						"is_move_animation": false,
-						"path_type": "linear",
-						"move_animation": {
-							"des_pos": [
-								0,
-								0
-							],
-							"duration": 100
-						},
-						"default_style": false,
-						"text": "20",
-						"long_mode": "LV_LABEL_LONG_BREAK",
-						"text_align": "center",
-						"style": [
-							{
-								"part": "LV_LABEL_PART_MAIN",
-								"state": "LV_STATE_DEFAULT",
-								"disable": false,
-								"radius": 0,
-								"text_color": "#000000",
-								"font": "16",
+								"text_color": "#808080",
 								"font_family": "simsun",
+								"font": 24,
 								"letter_space": 2,
-								"bg_color": "#ffffff",
-								"bg_grad_color": "#ffffff",
+								"line_space": 16,
+								"border_color": "#c0c0c0",
+								"border_width": 0
+							},
+							{
+								"part": "LV_TABVIEW_PART_INDIC",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#c8de00",
+								"bg_grad_color": "#c8de00",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER"
+							},
+							{
+								"part": "LV_TABVIEW_PART_TAB_BG",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#c8de00",
+								"bg_grad_color": "#c8de00",
 								"bg_opa": 255,
 								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"border_color": "#c0c0c0",
+								"border_width": 0,
 								"paddingTop": 0,
 								"paddingRight": 0,
 								"paddingBottom": 0,
 								"paddingLeft": 0
 							},
 							{
-								"part": "LV_LABEL_PART_MAIN",
-								"state": "LV_STATE_DISABLED",
+								"part": "LV_TABVIEW_PART_TAB_BTN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"text_color": "#042fc8",
+								"letter_space": 0
+							},
+							{
+								"part": "LV_TABVIEW_PART_TAB_BTN",
+								"state": "LV_STATE_CHECKED",
 								"disable": true,
-								"radius": 0,
-								"text_color": "#000000",
-								"font": 12,
-								"font_family": "simsun",
-								"letter_space": 2,
-								"bg_color": "#ffffff",
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"paddingTop": 0,
-								"paddingRight": 0,
-								"paddingBottom": 0,
-								"paddingLeft": 0
+								"text_color": "#4d4d4d",
+								"letter_space": 0
 							}
-						]
-					},
-					{
-						"name": "page5_screen_arc_1",
-						"type": "arc",
-						"pos": [
-							207,
-							101
 						],
-						"size": [
-							100,
-							100
-						],
-						"is_move_animation": false,
-						"path_type": "linear",
-						"move_animation": {
-							"des_pos": [
-								0,
-								0
-							],
-							"duration": 100
-						},
-						"default_style": false,
-						"rotate": 0,
-						"angle": [
-							0,
-							360
-						],
-						"bg_angle": [
-							0,
-							360
-						],
-						"line_cap": "butt",
-						"adjustable": false,
-						"padding_l": 5,
-						"padding_r": 5,
-						"padding_t": 5,
-						"padding_b": 5,
-						"style": [
+						"child": [
 							{
-								"part": "LV_ARC_PART_BG",
-								"state": "LV_STATE_DEFAULT",
-								"disable": false,
-								"bg_color": "#ffffff",
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"border_width": 0,
-								"line_color": "#d4d7d9",
-								"line_width": 16
+								"name": "page5_screen_chart_tabview_title1",
+								"type": "tab",
+								"tab_num": 0,
+								"child": []
 							},
 							{
-								"part": "LV_ARC_PART_BG",
-								"state": "LV_STATE_FOCUSED",
-								"disable": true,
-								"bg_color": "#ffffff",
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"border_width": 0,
-								"line_color": "#d4d7d9"
+								"name": "page5_screen_chart_tabview_title2",
+								"type": "tab",
+								"tab_num": 1,
+								"child": []
 							},
 							{
-								"part": "LV_ARC_PART_BG",
-								"state": "LV_STATE_DISABLED",
-								"disable": true,
-								"bg_color": "#ffffff",
-								"bg_grad_color": "#ffffff",
-								"bg_opa": 255,
-								"bg_grad_dir": "LV_GRAD_DIR_VER",
-								"border_width": 0,
-								"line_color": "#d4d7d9"
-							},
-							{
-								"part": "LV_ARC_PART_INDIC",
-								"state": "LV_STATE_DEFAULT",
-								"disable": false,
-								"line_color": "#01a2b1",
-								"line_width": 16
-							},
-							{
-								"part": "LV_ARC_PART_INDIC",
-								"state": "LV_STATE_FOCUSED",
-								"disable": true,
-								"line_color": "#01a2b1"
-							},
-							{
-								"part": "LV_ARC_PART_INDIC",
-								"state": "LV_STATE_DISABLED",
-								"disable": true,
-								"line_color": "#01a2b1"
+								"name": "page5_screen_chart_tabview_title3",
+								"type": "tab",
+								"tab_num": 2,
+								"child": [
+									{
+										"name": "page5_screen_chart_1",
+										"type": "chart",
+										"pos": [
+											122,
+											28
+										],
+										"size": [
+											205,
+											155
+										],
+										"is_move_animation": false,
+										"path_type": "linear",
+										"move_animation": {
+											"des_pos": [
+												0,
+												0
+											],
+											"duration": 100
+										},
+										"default_style": false,
+										"tabIndex": "2",
+										"style": [
+											{
+												"part": "LV_CHART_PART_BG",
+												"state": "LV_STATE_DEFAULT",
+												"disable": false,
+												"padding_top": 5,
+												"padding_bottom": 5,
+												"padding_left": 5,
+												"padding_right": 5,
+												"bg_color": "#ffffff",
+												"bg_grad_color": "#ffffff",
+												"bg_grad_dir": "LV_GRAD_DIR_VER",
+												"bg_opa": 255
+											},
+											{
+												"part": "LV_CHART_PART_SERIES_BG",
+												"state": "LV_STATE_DEFAULT",
+												"disable": false,
+												"line_color": "#e8e8e8",
+												"line_width": 2,
+												"line_opa": 255
+											},
+											{
+												"part": "LV_CHART_PART_BG",
+												"state": "LV_STATE_FOCUSED",
+												"disable": true,
+												"border_width": 0,
+												"border_color": "#ffffff"
+											}
+										],
+										"chart_type": "LV_CHART_TYPE_LINE",
+										"div_line_count": [
+											3,
+											5
+										],
+										"range": 100,
+										"chart_data": []
+									}
+								]
 							}
 						]
 					}

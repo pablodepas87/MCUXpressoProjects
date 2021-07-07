@@ -161,7 +161,7 @@ void setup_scr_page5_screen(lv_ui *ui){
 	lv_anim_start(&anim);
 
 	events_init_retun_to_homepage(ui);
-	lv_task_t *go_back_task = lv_task_create(return_to_home_cback,20000, LV_TASK_PRIO_HIGH, ui);
+	lv_task_t *go_back_task = lv_task_create(return_to_home_cback,30000, LV_TASK_PRIO_HIGH, ui);
 
 }
 

@@ -6,7 +6,7 @@
  * Generated linker script file for MIMXRT1052xxxxB
  * Created from library.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v11.3.1 [Build 5262] [2021-04-02] on 5-lug-2021 18.36.58
+ * MCUXpresso IDE v11.3.1 [Build 5262] [2021-04-02] on 6-lug-2021 17.24.17
  */
 
 GROUP (
